@@ -1,7 +1,6 @@
---// DIVINE FINDER EGG [STEAL AN EGG] - NETWORK EDITION v2.1
+--// DIVINE FINDER EGG [STEAL AN EGG] - NETWORK EDITION v3.0
 --// BY DEV AXL
---// REAL GOOGLE TRANSLATE (AR / EN / KU) | SERVER CARDS FROM SUPABASE | REAL JOIN
---// iOS LIQUID GLASS UI | MOBILE + PC
+--// AUTO-CLEAN SERVERS (60s REAL TIME) | MOTION BLUR | ORGANIZED UI
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -23,8 +22,10 @@ local SUBTITLE = "BY DEV AXL"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1549905157179973682/lMphfVLPMQGZZeyzUG02YXAs1mnZtFX8TIxQ_qm0c811R-mK7o6l9thA1xQrrXFA0evC"
 local SUPABASE_URL = "https://ewvzzvnjvrlagdzwsgwy.supabase.co"
 local SUPABASE_KEY = "sb_publishable_exf6hLaO1DlI27n8MfCIvA_3KSB3zWK"
-local UPDATE_INTERVAL = 20
+local UPDATE_INTERVAL = 20      -- إرسال بيانات كل 20 ثانية
 local MAX_SERVERS = 50
+local SERVER_TTL = 60           -- ⏱ عمر السيرفر بالثواني (دقيقة حقيقية) بعدها ينمسح
+local CLEAN_INTERVAL = 60       -- تنظيف كل دقيقة حقيقية
 
 local SCRIPT_SOURCE = [[
 loadstring(game:HttpGet("YOUR_RAW_SCRIPT_URL"))()
@@ -65,8 +66,8 @@ local function httpRequest(opts)
 		local ok, res = pcall(HTTP, opts)
 		if ok then return res end
 	else
-		if opts.Method == "POST" then
-			local ok, res = pcall(HttpService.PostAsync, HttpService, opts.Url, opts.Body)
+		if opts.Method == "POST" or opts.Method == "DELETE" then
+			local ok, res = pcall(HttpService.PostAsync, HttpService, opts.Url, opts.Body or "")
 			if ok then return {Success=true, Body=res} end
 		else
 			local ok, res = pcall(HttpService.GetAsync, HttpService, opts.Url)
@@ -77,13 +78,12 @@ local function httpRequest(opts)
 end
 
 --==================================================
--- REAL GOOGLE TRANSLATE (AR / EN / KU) — live + cached
+-- GOOGLE TRANSLATE (AR / EN / KU)
 --==================================================
 
 local Lang = "AR"
 local TransCache = {}
 
--- fallbacks جاهزة لو فشل الاتصال بالترجمة
 local FALLBACKS = {
 	AR = {
 		EGG_FINDER="باحث البيض", FILTER="فلتر", SETTINGS="الإعدادات", CREDITS="الحسابات",
@@ -93,17 +93,17 @@ local FALLBACKS = {
 		CREDITS_TITLE="حسابات المطور", CLOSE_MSG="هذه الواجهة ستُغلق",
 		CLOSE_Q="هل أنت متأكد أنك تريد المتابعة؟", YES="نعم", NO="لا",
 		AUTO_RELAY="الشبكة التلقائية", ENABLED="مفعل", DISABLED="معطل",
-		FOUND="تم العثور", JOINING="جاري الدخول..."
+		FOUND="تم العثور", JOINING="جاري الدخول...", CLEANING="تنظيف السيرفرات القديمة..."
 	},
 	KU = {
 		EGG_FINDER="گەڕەری هێلکە", FILTER="فلتەر", SETTINGS="ڕێکخستن", CREDITS="کرێدیت",
 		REFRESH="نوێکردنەوە", JOIN="چوونەژوورەوە", WAITING="چاوەڕوانی سێرڤەرەکان...",
 		NO_SERVERS="هیچ سێرڤەر نەدۆزرایەوە", SERVER="سێرڤەر", PLAYERS="یاریکەر",
 		MIN_RARITY="کەمترین دەرڕیتی", ALL="هەموو", LANGUAGE="زمان",
-		CREDITS_TITLE="کرێدیتی گەشەپێدەر", CLOSE_MSG="ئەم ڕووکارە دە dadەخریت",
+		CREDITS_TITLE="کرێدیتی گەشەپێدەر", CLOSE_MSG="ئەم ڕووکارە دادەخرێت",
 		CLOSE_Q="دڵنیایت لە بەردەوامبوون؟", YES="بەڵێ", NO="نەخێر",
 		AUTO_RELAY="تۆڕی خۆکار", ENABLED="چالاک", DISABLED="ناچالاک",
-		FOUND="دۆزرایەوە", JOINING="چوونەژوورەوە..."
+		FOUND="دۆزرایەوە", JOINING="چوونەژوورەوە...", CLEANING="پاککردنەوەی سێرڤەرە کۆنەکان..."
 	}
 }
 
@@ -111,10 +111,8 @@ local function RealTranslate(text, target)
 	if target == "en" then return text end
 	local key = target .. "|" .. text
 	if TransCache[key] then return TransCache[key] end
-
 	local url = "https://translate.googleapis.com/translate_a/single"
 		.. "?client=gtx&sl=auto&tl=" .. target .. "&dt=t&q=" .. HttpService:UrlEncode(text)
-
 	local res = httpRequest({Url = url, Method = "GET"})
 	if res and res.Success and res.Body then
 		local ok, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
@@ -124,16 +122,12 @@ local function RealTranslate(text, target)
 				if type(seg) == "table" and seg[1] then table.insert(out, tostring(seg[1])) end
 			end
 			local result = table.concat(out, "")
-			if result ~= "" then
-				TransCache[key] = result
-				return result
-			end
+			if result ~= "" then TransCache[key] = result return result end
 		end
 	end
 	return text
 end
 
--- UI strings (source: English)
 local STRINGS = {
 	EGG_FINDER = "EGG FINDER", FILTER = "FILTER", SETTINGS = "SETTINGS", CREDITS = "CREDITS",
 	REFRESH = "REFRESH", JOIN = "JOIN", WAITING = "Fetching servers from network...",
@@ -142,10 +136,10 @@ local STRINGS = {
 	CREDITS_TITLE = "DEVELOPER CREDITS", CLOSE_MSG = "This interface will close",
 	CLOSE_Q = "Are you sure you want to continue?", YES = "Yes", NO = "No",
 	AUTO_RELAY = "Auto Network Relay", ENABLED = "ENABLED", DISABLED = "DISABLED",
-	FOUND = "FOUND", JOINING = "JOINING...", UPDATED = "Updated", AREA = "AREA"
+	FOUND = "FOUND", JOINING = "JOINING...", UPDATED = "Updated", AREA = "AREA",
+	CLEANING = "Cleaning old servers...", AUTO_CLEAN = "Auto Clean (60s)", LIVE = "LIVE"
 }
 
--- 3 لغات فقط: عربي / إنكليزي / كوردي
 local LangMap = {AR="ar", EN="en", KU="ku"}
 local LANG_NAMES = {AR="العربية", EN="English", KU="کوردی"}
 local LTEXT = {}
@@ -229,7 +223,26 @@ local function bestRarity(eggs)
 end
 
 --==================================================
--- RELAY: WEBHOOK -> SUPABASE (every 20s)
+-- ⏱ TIME HELPERS (دقيقة حقيقية)
+--==================================================
+
+local function isoToStamp(iso)
+	-- يحول ISO time إلى unix seconds
+	local y, mo, d, h, mi, s = iso:match("(%d+)-(%d+)-(%d+)T(%d+):(%d+):(%d+)")
+	if not y then return 0 end
+	return os.time({year=tonumber(y), month=tonumber(mo), day=tonumber(d),
+		hour=tonumber(h), min=tonumber(mi), sec=tonumber(s)})
+end
+
+local function isStale(server)
+	local iso = server.updated_at
+	if not iso or iso == "" then return true end
+	local age = os.time(os.date("!*t")) - isoToStamp(iso)
+	return age > SERVER_TTL
+end
+
+--==================================================
+-- RELAY: WEBHOOK -> SUPABASE
 --==================================================
 
 local AutoRelay = true
@@ -264,10 +277,8 @@ local function sendWebhook(eggs, playerCount)
 			footer = {text = "DIVINE FINDER EGG • BY DEV AXL • " .. os.date("!%Y-%m-%d %H:%M:%S UTC")}
 		}}
 	})
-	httpRequest({
-		Url = WEBHOOK_URL, Method = "POST",
-		Headers = {["Content-Type"]="application/json"}, Body = payload
-	})
+	httpRequest({Url = WEBHOOK_URL, Method = "POST",
+		Headers = {["Content-Type"]="application/json"}, Body = payload})
 end
 
 local function pushToSupabase(eggs, playerCount)
@@ -294,6 +305,27 @@ local function pushToSupabase(eggs, playerCount)
 	})
 end
 
+--==================================================
+-- 🧹 حذف السيرفرات الأقدم من دقيقة من Supabase
+--==================================================
+
+local function deleteStaleServersFromSupabase()
+	if not HttpEnabled then return end
+	-- نقطة الوقت: الآن ناقص 60 ثانية
+	local cutoff = os.date("!%Y-%m-%dT%H:%M:%SZ", os.time(os.date("!*t")) - SERVER_TTL)
+	local url = SUPABASE_URL
+		.. "/rest/v1/servers?updated_at=lt." .. cutoff
+	httpRequest({
+		Url = url,
+		Method = "DELETE",
+		Headers = {
+			["apikey"]=SUPABASE_KEY,
+			["Authorization"]="Bearer "..SUPABASE_KEY,
+			["Prefer"]="return=minimal"
+		}
+	})
+end
+
 local function fetchServers()
 	if not HttpEnabled then return {} end
 	local res = httpRequest({
@@ -303,11 +335,19 @@ local function fetchServers()
 	})
 	if res and res.Success and res.Body then
 		local ok, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
-		if ok and type(data) == "table" then return data end
+		if ok and type(data) == "table" then
+			-- فلترة محلية أيضاً: استبعد الأقدم من دقيقة
+			local fresh = {}
+			for _, s in ipairs(data) do
+				if not isStale(s) then table.insert(fresh, s) end
+			end
+			return fresh
+		end
 	end
 	return {}
 end
 
+-- حلقة الإرسال كل 20 ثانية
 task.spawn(function()
 	while true do
 		if AutoRelay and HttpEnabled then
@@ -317,6 +357,16 @@ task.spawn(function()
 			pushToSupabase(eggs, pc)
 		end
 		task.wait(UPDATE_INTERVAL)
+	end
+end)
+
+-- حلقة التنظيف كل دقيقة حقيقية (من قاعدة البيانات)
+task.spawn(function()
+	while true do
+		task.wait(CLEAN_INTERVAL)
+		if HttpEnabled then
+			pcall(deleteStaleServersFromSupabase)
+		end
 	end
 end)
 
@@ -348,6 +398,65 @@ Instance.new("UICorner", Main).CornerRadius = UDim.new(0,24)
 local MainStroke = Instance.new("UIStroke")
 MainStroke.Color = Color3.fromRGB(150,150,160); MainStroke.Transparency = .72; MainStroke.Parent = Main
 
+--==================================================
+-- 🌫 MOTION BLUR (أثر ضبابي عند سحب الواجهة)
+--==================================================
+
+local BlurGhosts = {}
+local BLUR_GHOST_COUNT = 5
+
+local function MakeBlurGhost()
+	local ghost = Instance.new("Frame")
+	ghost.Size = Main.Size
+	ghost.AnchorPoint = Vector2.new(.5,.5)
+	ghost.BackgroundColor3 = Color3.fromRGB(120,140,255)
+	ghost.BackgroundTransparency = 1
+	ghost.BorderSizePixel = 0
+	ghost.ZIndex = 1
+	Instance.new("UICorner", ghost).CornerRadius = UDim.new(0,24)
+	ghost.Parent = Gui
+	return ghost
+end
+
+for i = 1, BLUR_GHOST_COUNT do
+	local g = MakeBlurGhost()
+	g.BackgroundTransparency = 1
+	BlurGhosts[i] = {frame = g, pos = Main.Position, active = false}
+end
+
+local BlurEnabled = true
+local blurTick = 0
+
+local function UpdateBlur(newPos)
+	if not BlurEnabled then return end
+	blurTick = blurTick + 1
+	-- كل إطار نحرك الأشباح بالتتابع (تتبع متأخر)
+	for i = 1, BLUR_GHOST_COUNT do
+		local g = BlurGhosts[i]
+		if i == 1 then
+			g.pos = Main.Position
+		else
+			local prev = BlurGhosts[i-1]
+			g.pos = g.pos:Lerp(prev.pos, 0.35)
+		end
+		g.frame.Position = g.pos
+		local depth = i / BLUR_GHOST_COUNT
+		g.frame.BackgroundTransparency = 0.94 - (1 - depth) * 0.06
+		g.frame.Size = Main.Size
+	end
+end
+
+local function ResetBlur()
+	for _, g in ipairs(BlurGhosts) do
+		g.frame.BackgroundTransparency = 1
+		g.pos = Main.Position
+	end
+end
+
+--==================================================
+-- TITLE + BUTTONS
+--==================================================
+
 local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1,-150,0,20); Title.Position = UDim2.fromOffset(60,14)
 Title.BackgroundTransparency = 1; Title.Text = TITLE
@@ -361,6 +470,15 @@ DevTag.BackgroundTransparency = 1; DevTag.Text = SUBTITLE
 DevTag.TextColor3 = Color3.fromRGB(160,160,255); DevTag.TextSize = 9
 DevTag.Font = Enum.Font.GothamBold; DevTag.TextXAlignment = Enum.TextXAlignment.Left
 DevTag.ZIndex = 5; DevTag.Parent = Main
+
+-- شارة LIVE صغيرة
+local LiveBadge = Instance.new("TextLabel")
+LiveBadge.Size = UDim2.fromOffset(46,18); LiveBadge.Position = UDim2.new(1,-210,0,16)
+LiveBadge.BackgroundColor3 = Color3.fromRGB(0,255,120); LiveBadge.BackgroundTransparency = .85
+LiveBadge.Text = "● " .. STRINGS.LIVE; LiveBadge.TextColor3 = Color3.fromRGB(120,255,170)
+LiveBadge.TextSize = 9; LiveBadge.Font = Enum.Font.GothamBold
+LiveBadge.Parent = Main
+Instance.new("UICorner", LiveBadge).CornerRadius = UDim.new(0,9)
 
 local function TopButton(name, icon, x)
 	local b = Instance.new("ImageButton")
@@ -397,16 +515,28 @@ local FilterPage = CreatePage("FILTER")
 local SettingsPage = CreatePage("SETTINGS")
 local CreditsPage = CreatePage("CREDITS")
 
+--==================================================
 -- EGG FINDER PAGE
+--==================================================
+
 local FinderHeader = Instance.new("Frame")
 FinderHeader.Size = UDim2.new(1,0,0,42); FinderHeader.BackgroundTransparency = 1
 FinderHeader.Parent = EggPage
 
 local StatusLabel = Instance.new("TextLabel")
-StatusLabel.Size = UDim2.new(1,-135,1,0); StatusLabel.BackgroundTransparency = 1
+StatusLabel.Size = UDim2.new(1,-270,1,0); StatusLabel.BackgroundTransparency = 1
 StatusLabel.Text = STRINGS.WAITING; StatusLabel.TextColor3 = Color3.fromRGB(160,160,170)
 StatusLabel.TextSize = 12; StatusLabel.Font = Enum.Font.GothamBold
 StatusLabel.TextXAlignment = Enum.TextXAlignment.Left; StatusLabel.Parent = FinderHeader
+
+-- عداد التنظيف التالي (يعرض الثواني المتبقية للتنظيف القادم)
+local CleanCountdown = Instance.new("TextLabel")
+CleanCountdown.Size = UDim2.fromOffset(120,20); CleanCountdown.Position = UDim2.new(1,-270,0,11)
+CleanCountdown.BackgroundTransparency = 1
+CleanCountdown.Text = "🧹 " .. tostring(CLEAN_INTERVAL) .. "s"
+CleanCountdown.TextColor3 = Color3.fromRGB(130,200,255); CleanCountdown.TextSize = 10
+CleanCountdown.Font = Enum.Font.GothamBold; CleanCountdown.TextXAlignment = Enum.TextXAlignment.Right
+CleanCountdown.Parent = FinderHeader
 
 local RefreshBtn = Instance.new("TextButton")
 RefreshBtn.Size = UDim2.fromOffset(125,36); RefreshBtn.Position = UDim2.new(1,-125,0,3)
@@ -456,6 +586,15 @@ local function BuildServerCard(index, server)
 	num.Text = string.format("%s #%d • %s", L("SERVER"), index, br)
 	num.TextColor3 = color; num.TextSize = 13; num.Font = Enum.Font.GothamBold
 	num.TextXAlignment = Enum.TextXAlignment.Left; num.Parent = card
+
+	-- عمر السيرفر بالثواني
+	local ageTag = Instance.new("TextLabel")
+	ageTag.Size = UDim2.fromOffset(60,20); ageTag.Position = UDim2.new(1,-240,0,10)
+	ageTag.BackgroundTransparency = 1
+	ageTag.Text = "⏱ " .. tostring(server.updated_at and (os.time(os.date("!*t")) - isoToStamp(server.updated_at)) .. "s" or "?")
+	ageTag.TextColor3 = Color3.fromRGB(150,150,165); ageTag.TextSize = 10
+	ageTag.Font = Enum.Font.GothamBold; ageTag.TextXAlignment = Enum.TextXAlignment.Right
+	ageTag.Parent = card
 
 	local playersTag = Instance.new("TextLabel")
 	playersTag.Size = UDim2.fromOffset(110,20); playersTag.Position = UDim2.new(1,-124,0,10)
@@ -515,6 +654,7 @@ local function BuildServerCard(index, server)
 		end
 	end)
 
+	-- نبض حيوي
 	task.spawn(function()
 		while card.Parent do
 			local p = (math.sin(os.clock()*2) + 1) / 2
@@ -526,8 +666,11 @@ local function BuildServerCard(index, server)
 	table.insert(ServerCards, card)
 end
 
+--==================================================
+-- 🔄 REFRESH + 🧹 AUTO CLEAN (كل دقيقة حقيقية)
+--==================================================
+
 local function RefreshServers()
-	Pop()
 	StatusLabel.Text = L("WAITING")
 	for _, c in ipairs(ServerCards) do c:Destroy() end
 	table.clear(ServerCards)
@@ -547,13 +690,35 @@ local function RefreshServers()
 	end)
 end
 
-RefreshBtn.Activated:Connect(RefreshServers)
-
+-- العداد التنازلي للتنظيف + تحديث تلقائي كل 60 ثانية حقيقية
 task.spawn(function()
+	local remaining = CLEAN_INTERVAL
 	while true do
-		task.wait(UPDATE_INTERVAL)
-		if EggPage.Visible then RefreshServers() end
+		task.wait(1) -- ثانية حقيقية
+		if not EggPage.Visible then continue end
+		remaining = remaining - 1
+		if remaining <= 0 then
+			remaining = CLEAN_INTERVAL
+			-- 1) حذف القديمة من Supabase
+			if HttpEnabled then pcall(deleteStaleServersFromSupabase) end
+			-- 2) إعادة بناء الصفحة (تُشيل الكروت القديمة تلقائياً)
+			if EggPage.Visible then
+				RefreshServers()
+			end
+		end
+		-- تحديث العداد على الشاشة
+		CleanCountdown.Text = "🧹 " .. remaining .. "s"
+		if remaining <= 5 then
+			CleanCountdown.TextColor3 = Color3.fromRGB(255,120,120)
+		else
+			CleanCountdown.TextColor3 = Color3.fromRGB(130,200,255)
+		end
 	end
+end)
+
+RefreshBtn.Activated:Connect(function()
+	Pop()
+	RefreshServers()
 end)
 
 --==================================================
@@ -598,7 +763,7 @@ for _, r in ipairs(rarities) do
 end
 
 --==================================================
--- SETTINGS PAGE (3 Languages: AR / EN / KU + Auto Relay)
+-- SETTINGS PAGE
 --==================================================
 
 local LangLabel = Instance.new("TextLabel")
@@ -614,7 +779,7 @@ LangLayout.FillDirection = Enum.FillDirection.Horizontal
 LangLayout.Padding = UDim.new(0,6); LangLayout.Parent = LangRow
 
 local LangButtons = {}
-for _, code in ipairs({"AR","EN","KU"}) do -- ثلاث لغات فقط
+for _, code in ipairs({"AR","EN","KU"}) do
 	local b = Instance.new("TextButton")
 	b.Size = UDim2.fromOffset(110,38); b.Text = LANG_NAMES[code]
 	b.BackgroundColor3 = Color3.fromRGB(255,255,255); b.BackgroundTransparency = .93
@@ -626,9 +791,7 @@ for _, code in ipairs({"AR","EN","KU"}) do -- ثلاث لغات فقط
 		Pop(); Lang = code
 		for c, bb in pairs(LangButtons) do Tween(bb,.12,{BackgroundTransparency=.93}) end
 		Tween(b,.12,{BackgroundTransparency=.72})
-		StatusLabel.Text = "🌐 ..."
 		TranslateAll()
-		-- انتظار الترجمة الحقيقية ثم تحديث كل النصوص
 		task.delay(1.5, function()
 			StatusLabel.Text = L("WAITING")
 			RefreshBtn.Text = "⟳ " .. L("REFRESH")
@@ -656,6 +819,23 @@ RelayToggle.Activated:Connect(function()
 	Pop(); AutoRelay = not AutoRelay
 	RelayToggle.Text = L("AUTO_RELAY") .. ": " .. (AutoRelay and L("ENABLED") or L("DISABLED"))
 	RelayToggle.TextColor3 = AutoRelay and Color3.fromRGB(120,255,150) or Color3.fromRGB(255,120,120)
+end)
+
+-- زر تشغيل/إيقاف الـ Motion Blur
+local BlurToggle = Instance.new("TextButton")
+BlurToggle.Size = UDim2.new(1,0,0,42); BlurToggle.Position = UDim2.fromOffset(0,142)
+BlurToggle.BackgroundColor3 = Color3.fromRGB(255,255,255); BlurToggle.BackgroundTransparency = .92
+BlurToggle.Text = "MOTION BLUR: ENABLED"
+BlurToggle.TextColor3 = Color3.fromRGB(160,160,255); BlurToggle.TextSize = 12
+BlurToggle.Font = Enum.Font.GothamBold; BlurToggle.AutoButtonColor = false
+BlurToggle.Parent = SettingsPage
+Instance.new("UICorner", BlurToggle).CornerRadius = UDim.new(0,12)
+
+BlurToggle.Activated:Connect(function()
+	Pop(); BlurEnabled = not BlurEnabled
+	BlurToggle.Text = "MOTION BLUR: " .. (BlurEnabled and "ENABLED" or "DISABLED")
+	BlurToggle.TextColor3 = BlurEnabled and Color3.fromRGB(160,160,255) or Color3.fromRGB(255,120,120)
+	if not BlurEnabled then ResetBlur() end
 end)
 
 --==================================================
@@ -858,7 +1038,7 @@ Mini.Activated:Connect(function()
 end)
 
 --==================================================
--- DRAG
+-- 🌫 DRAG + MOTION BLUR
 --==================================================
 
 local function MakeDraggable(object)
@@ -867,7 +1047,13 @@ local function MakeDraggable(object)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true; dragStart = input.Position; startPosition = object.Position
 			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then dragging = false end
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+					-- عند الإفلات: أطفئ الأشباح بنعومة
+					for _, g in ipairs(BlurGhosts) do
+						Tween(g.frame, .25, {BackgroundTransparency = 1})
+					end
+				end
 			end)
 		end
 	end)
@@ -877,6 +1063,8 @@ local function MakeDraggable(object)
 			local delta = input.Position - dragStart
 			object.Position = UDim2.new(startPosition.X.Scale, startPosition.X.Offset + delta.X,
 				startPosition.Y.Scale, startPosition.Y.Offset + delta.Y)
+			-- تحريك أثر الـ Motion Blur
+			UpdateBlur(object.Position)
 		end
 	end)
 end
@@ -885,7 +1073,7 @@ MakeDraggable(Main)
 MakeDraggable(Mini)
 
 --==================================================
--- OPEN + INITIAL FETCH
+-- OPEN + INITIAL FETCH + FIRST CLEAN
 --==================================================
 
 Main.Size = UDim2.fromOffset(0,0); Main.BackgroundTransparency = 1
@@ -893,6 +1081,10 @@ Tween(Main,.45,{Size=UDim2.fromOffset(600,430),BackgroundTransparency=.08},Enum.
 task.wait(.08); Pop()
 
 TranslateAll()
-task.delay(1.5, function()
+
+-- تنظيف أولي ثم جلب أول قائمة
+task.spawn(function()
+	if HttpEnabled then pcall(deleteStaleServersFromSupabase) end
+	task.wait(1.2)
 	RefreshServers()
 end)
