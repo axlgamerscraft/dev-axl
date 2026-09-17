@@ -1,1 +1,898 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _mmYmCePzgOhP = a; end)); return(function(f,...)local a;local t;local j;local l;local h;local r;local e=24915;local d=0;local n={};while d<594 do d=d+1;while d<0x1db and e%0x2084<0x1042 do d=d+1 e=(e*21)%44861 local o=d+e if(e%0x32ce)>0x1967 then e=(e-0x3c)%0x31f5 while d<0x1ff and e%0x1a32<0xd19 do d=d+1 e=(e*20)%43891 local l=d+e if(e%0x4abc)<0x255e then e=(e+0x398)%0x7ca0 local e=52553 if not n[e]then n[e]=0x1 j=function(j)local e=0x01 local function n(d)e=e+d return j:sub(e-d,e-0x01)end while true do local d=n(0x01)if(d=="\5")then break end local e=t.byte(n(0x01))local e=n(e)if d=="\2"then e=h.ZQ_roaUj(e)elseif d=="\3"then e=e~="\0"elseif d=="\6"then r[e]=function(e,d)return f(8,nil,f,d,e)end elseif d=="\4"then e=r[e]elseif d=="\0"then e=r[e][n(t.byte(n(0x01)))];end local d=n(0x08)h[d]=e end end end elseif e%2~=0 then e=(e-0x355)%0x6b1c local e=5795 if not n[e]then n[e]=0x1 end else e=(e*0x140)%0x5a5f d=d+1 local e=70609 if not n[e]then n[e]=0x1 end end end elseif e%2~=0 then e=(e+0x2f8)%0x11ac while d<0x285 and e%0x47aa<0x23d5 do d=d+1 e=(e+798)%12662 local j=d+e if(e%0x26c8)>0x1364 then e=(e+0x314)%0xb86f local e=53635 if not n[e]then n[e]=0x1 l="\4\8\116\111\110\117\109\98\101\114\90\81\95\114\111\97\85\106\0\6\115\116\114\105\110\103\4\99\104\97\114\74\115\73\69\73\109\114\117\0\6\115\116\114\105\110\103\3\115\117\98\71\116\68\117\88\97\82\90\0\6\115\116\114\105\110\103\4\98\121\116\101\74\120\114\119\104\104\120\99\0\5\116\97\98\108\101\6\99\111\110\99\97\116\80\80\110\72\90\99\116\122\0\5\116\97\98\108\101\6\105\110\115\101\114\116\69\122\109\85\115\69\85\65\5";end elseif e%2~=0 then e=(e-0x1b9)%0x7e8c local e=30754 if not n[e]then n[e]=0x1 r=(not r)and _ENV or r;end else e=(e*0x31c)%0x1a26 d=d+1 local e=67505 if not n[e]then n[e]=0x1 a=tonumber;end end end else e=(e-0x3ca)%0x1d40 d=d+1 while d<0x137 and e%0x4b38<0x259c do d=d+1 e=(e*973)%30476 local j=d+e if(e%0x4498)<0x224c then e=(e+0x4a)%0x8de3 local e=73470 if not n[e]then n[e]=0x1 t=string;end elseif e%2~=0 then e=(e+0x237)%0x4a52 local e=12719 if not n[e]then n[e]=0x1 r=getfenv and getfenv();end else e=(e+0x2a)%0x1bf3 d=d+1 local e=48259 if not n[e]then n[e]=0x1 h={};end end end end end e=(e*674)%17540 end j(l);local d={};for e=0x0,0xff do local n=h.JsIEImru(e);d[e]=n;d[n]=e;end local function o(e)return d[e];end local t=(function(l,j)local f,n=0x01,0x10 local d={{},{},{}}local r=-0x01 local e=0x01 local t=l while true do d[0x03][h.GtDuXaRZ(j,e,(function()e=f+e return e-0x01 end)())]=(function()r=r+0x01 return r end)()if r==(0x0f)then r=""n=0x000 break end end local r=#j while e<r+0x01 do d[0x02][n]=h.GtDuXaRZ(j,e,(function()e=f+e return e-0x01 end)())n=n+0x01 if n%0x02==0x00 then n=0x00 h.EzmUsEUA(d[0x01],(o((((d[0x03][d[0x02][0x00]]or 0x00)*0x10)+(d[0x03][d[0x02][0x01]]or 0x00)+t)%0x100)));t=l+t;end end return h.PPnHZctz(d[0x01])end);j(t(20,"+_L,MC&xwKqJV?7!77?V!J7DV7J??x?Eq_J_x?wLxM,L?&V_?V!!7CJCqwqJxKx&wL!q7CW_!!!CpV7LVJJ_qVx?_7kJLC_wE/}x7K??VMJKK?KKKq_q xLx_C!q_K_K7M7&?,qKwLqo_&aC_7_I!M7_V!7!7IJ&VAqqxMCq&97q?w!_7,?_JV7&qwK,KV&!C7CqM!?LJ!7#V?JK?wq,JCK?wJCDCV,_V7JJ?VVQq??7V8JKwCKF&7&xC,VqJK?_J?qqKVw_wxw7xVMK,E,q_?LxK7wJq&KKx7xJ&wxJ&wL!_K,_L4KqwxqwwVx!xK&?w&MKL&,?LCO_K&wCK?w7xC&xM!MqC!LJL!jL!?.&VM&qCwx_&,M7,M,wLu_w-_sM7,VCJMCL,!&NMV,P,,,NbxuC%q<_7??xM7,JCwMCL?,!L7_x2JRq!JJLJ7Mq,&Cx,!CqL7M&TR7?gV7xq?CqMK&,M7,qL&_x_V.C 77q7Jq7J&q!L7_J,wLL_M_qLL7C?w?x?7Kqq!Lq_x,L_?hVLq_V7w?xV7?&K&qCL&_,,u_K(xLJ_q!_!kVkJ7q_qKLL__LK_?vM7V?JP??,7,KJKMqMwL&J!&7_o0,L_M7MVLqKq_q!w!_qmCLLMw_xL__w!q!_JMq,,7LKMxxLL?L,LwLMjM7J?&&LM?&?wCwqxLCLMJLM!?!qw&x_KLJ_w_KK&,C?MxMK,MqqKxJLq_w7KqKCw7&q,CMCM&_Vq&KLq7KwJqqKK!w,CVC&M?,_J&qLJ!qq??qqw_K?CVC_,VLUV&JLV7JK7JV&JwwVKC&,&K,L?&VL?!VK!VJLJCJCw&xxw_Cq7&?M77?wVwJx?q?OK&xLKLCV,x,&V7JV?CVPq7KJVKwCw_Cq&?,!LC,,J&qLV_qqq7KwK!K7xKMV,V,?V&JLV?J7??VLVMwKwJ&,MJ,L?&VL??V!Vw7,q7wVKww,CV&w7&?L!L?J?VVxJ#JVJwKwKi&_!&7_j,,__q5KVM?LJ!qqqF_qb&L&_9,cLC!Q?KJKJxJ,JMLq_&,C_!_V,&!!!,!VJ7VMKM,qL&MML?M_LxLKLM<qV7VqJ&Mq,&CMM_&CLJLqaJ_C7?VxVJCqM&&xCLxxM,LJ,L!7!?7_7!&qC&xMCVw7Mx,C_?_q(KN,7Mxq&&wM&7wLwC&xMM_JLV5q7JwqxxK_xV&Kx_C,&w&z_K9?L:!!w&x,w?x?&Mwqxq,KCV,?(M_V7JwL&!wKxJ&CwC&q,CLx,KA__J?xx7&JwCxw&Mx!&KM&,L,,_q!LELxq&xw_xMCqCCMC,xMK_7_J%!?VxK"));j(t(99,"oR3Qp!2x+1fg.wZ)1wpIpfZ++QRxg1p)+1+2Qp.121Z1fBp!gQp)Z1gg3g+33>3+g+!Q)g1+Q3g!2+Z)fY3!Z)+3g3!Q!g)f+ZQ^wQ2pJ2+g3+g2x2ZgfZZp+x1R3).f!ZDz12wRw22xRxfQp!)32t3Qg!QwZ32)R!23CQi11fpfwgR!R1fZp.).1Rvxfw!frf1+p!w3+Rffp)!QZ3+Z3pg12!Z)1)31.x2Zzp1hpQg)+.)QgQpg.f3+.+gp2Y)gf1pRZRQ)VZf13+wp1K)wgR!Q1!Q3p3.12ZR2+.pwZp!)*g.!!Qwf31.!1f!2)Zf.3+w+!#R3gwZf+g1p3..w2g_21fQ.w3!*)f1.p3ZRx.)gf2){131Z3+.22wIQpRpwZQ+3RVf)!pw!+fKxwxpQ_w+Z3Rx3RRRwgQ!3Z}x)3p.RQxZ+1!pRw+x+Pwp3ZOZ++xRggw2*Zf++3gg12)wg+ZRZx!RpRZfw!RZx+3Q8g)Q1)11)Q+w.2g=)pRZ3Z+x131gf)p)31!Q!w3x3Zw+13wZ!!+32g1pK+f"));local e=(-h.cpUyYrxJ+(function()local j,n=h.gaELcEVv,h.CMxb_YhM;(function(d,n,e)e(e(e,n,d)and e(d and e,d,d),n(e,e,e),e(d,d,d)and n(n,d,n))end)(function(r,e,d)if j>h.OEMHQIYn then return d end j=j+h.CMxb_YhM n=(n-h.eyXnoYFx)%h.glVtrPJd if(n%h.vLKhORbk)>=h.lKqmoHhQ then n=(n+h.vlyYxjww)%h.KfhIDbYw return e else return e(d(e,r,r)and e(e,e,r),e(e,r,d),e(r,e,e))end return e(d(d and e,r,r)and r(r,d,d),e(e and r,d and e,e and e),d(e and d,d,d))end,function(d,e,r)if j>h.CDklGEqt then return e end j=j+h.CMxb_YhM n=(n+h.EMzQBmiY)%h.BkKcJYvH if(n%h.HDPMdWMP)>=h.GXCUnyyw then return d else return e(r(r,d,r)and d(e,e,d),r(d and r,e,e)and e(d,r,d),d(e,d,d))end return r(e(e,e and e,d),e(d,r,d),e(r,e and r,d))end,function(d,e,r)if j>h.WZW_rwBb then return d end j=j+h.CMxb_YhM n=(n*h.bJvDExgA)%h.PMjZoFbo if(n%h.RnEL_zJs)>h.flLOZvJm then n=(n-h.knYlPbYu)%h.ySwCPtfc return d else return e(d(e,e,r),r(e,r and e,r and e)and d(d,d,e),e(r,r,r and e))end return d(r(r,e,d),d(d,r and e,d),d(e and d,e,e))end)return n;end)())local o=h.kDXhwqtl or h.OgGzIvZP;local je=(getfenv)or(function()return _ENV end);local l=h.zpTFAMoc;local r=h.lOmxnyPS;local j=h.rAKdthcb;local y=h.CMxb_YhM;local function de(u,...)local c=t(e,"l62M#;j9+d5O-NKrj-j#6j-+9-#2NKdG#2Mj^9OO9;2MK^+r#9r2d5M-W-5Nj-2MN29;M+NNd+Mr>9#2.25#;j!+zrNr+M#2-O52;j?NOK#r6MN2++2NNd+NN-d+MKrm5255jr6NK6+-MNr25jM9rr-2;r5K9M6.-29#rK9rjM-j-92:2O+#+rKNM55#2j}dj2jN-jN6M2M#O+-2d;2#Nj++62dN99N+NOM+Mr525Mrr=jdMO26N9N+6K2K#jjd/;-r#-5dN#O}yjK926M-N+2MOj+5-;Kd2#9r#5j;+;M2d-r+9M9+j#jK+d5#-Mr6#-j;+2rKO+N#O&.5#MO62--962KN62<Nj+2M#KjNOOdjK6--;+#-j9r2+N5+-+j;;iM-j9565-r9N#2+2MNK#dj#+##EN-29;K2-++9M5rj56j252;+g#Ojj+;NMOK5dr;#-9#+Z;55;-sK6jNMd6#jr65-;6OKdO9<6N--9N--d#2KKvd2Oj;+21OO9rM6N;djMNK5926d-O9rM+Kddd#9r-O2;r66-j9Mr#5j;+?5O-jKK=;#-#M+rdd5#-rKr6-j9+6MK6d+#;rO5dj-Gdd+9N2KK>+NMK+#M5Kjd+#5#d.rN;+;2dK+25KU+-MKr>K;O;9M6NN-9NN0+OM2K#dj+5;O6K-49;2jd#9N#6r-56rL55;2p#OjOO+MM+r#d;;#O#+djN65;K6#-t922#6KKN5j;dRM-# #-rjj6+-5;#N;Od6-6N9O-+M2O#d9r+r59K5j6I5M9;N2NdMO+#KK9d;2-rOj#M##rr5j;+G5ZdNMd#MMrS;jMO12O6jM2#j#6d-j9+25MSrNO2;;w-;+=NO5j-6K62KM52;gH9#-h25KjQ626jN9+-#Mt6O6r25O;#yjO+5-++2rKMdN;PrrOOjK5KjO6e-29#95#5KrdNj66;-#9NNj55+dM5K2M2K5d##jr+KN-K+M2MNO+5Mry:M-KrdK;F?2H6-r+j--+#2KK*d2+Oj;6#OK2-(6K;d2Nj+rM+K5d-56jM6MN2;rM-Nrdd;6d2#5r#5j;+;K2ONO+6M5K;5N;Md-;jrKO1j2j+MOK;+-#+rMO9;91dO5m5-#j-6KN<N#5d;#KO5rjK2#-d9;2d9+M2N5+-MKM966-/j5N+-69N#2KMd5Kjd5#+r55--j9r2rNd2jN++5M-KK5=;2M#rjj52;--9KMS2KFM5d;d6j5-9526KO+d#++5##K-dK;(#d2MN29-K5--d5#6Yj5dr+5r;5i-OKO#+9M5K95N;j6<#KX O2j#6j-+95;r6Kd2;;r#5j;+;j26N#d#r2N9dK;9ZrO+j26;N#M#{9K5d9#O?{#2rr5#;j}+F6NO+5M#52+##906O+9C69-K9d-j9N2+N5+-d#;d6;ONj+2#-r6KNr+JM2K#N55NjNbr-M9K2jN;d##-N-56;O%r-+jd65j52K--9KMYM#rN5Nj>6K9-j62+K6dd#2K-dr;KOKd69#26N;+5--+#2KKnd26N95+kL6K#99#+-5NjdBM+K5d-d;j;2jO99OM5rEd;#6r;##rK5j;+S5!j-r+#M95#+d;rAdOKj2O29D6#-j9+AM;Kj9-j-O2-2K5rd26jr9;j;5NOK+5M#5r-5K59+6MVN5#+2Nz drj#69OdA+O-j56--KN;9j#N:M#+r55-;K6W-29#6j69+-#+KK5>;2;j2ONj+KM;KOd;2O.+5Oj;6N;K69-k922#69K-dKMr=5Odjj6dN+6+-59-2KKtd2##;jK+;-62OK9U226jrO5-;K7OO-_2Ojj#6j-+ONdOMrr-##(M5j;+C52-NMd2#;rM5#6;sN-/;r6K-j9NM#Nr2-K#+K#cr2r9Odjd2+O5jK6Mr;MjYNd+#5r-+j19K59j#K-rOM6y6jdd-22-O-dx62r#9;;+N5>#-6j+N2;KM9d5d56OrK+9j2K;hK9+rrN-j;#656-K+OMbK2d#ddj66jN29MM2d292#OKr56;662;2sdO#jj6+62r^52;!Nd5dj555j#z-OK9{jMM+K5+O#rrr-2jd26N26+--952-NKN-O6;O6;;5bKO-jK24MdK;5M#Nd-;2rKOsj2;92rK5+N#+rM#2rd5#;j4+D9NO+5Mrrj5M;-d5#Kr-5Kj};#MMK;dMN-djMKr,5259j92K-rj2MNK-dj#d1+#5rr5-;K6f6#NN+-##KrMKM-5S;2Q#+KHrr29-;jN9S2jN-dN&;6M;d#d+6-##5r*N625u99NMNOM+MrdrK5;;5rOd6jj#-K;OM2ONdj2drO;O5j66969#r;N+j2+#Kr#N;MO2rKjd-9--#NMCO2N-#95+5O}+^r9292rr6K+dK9KN#-;6O#rN5rjvr#OM;j.+O5O6+5M;K;5+;+a95N9622-d+6M2NOd5N-drMKre522-O9dD66r#+6;dOjON6-26+#--M9d9dOr5rK9r+-##KK5L;2N-jd#:-O5#M98djddj#Nr+55;-;K2-NMdNMOr55NKK5+;mD2O#55+6MNNNdy#-r9+d#dr+;-6dOK9y222jKO5j#Kp6-{;M2j-d+jM+Nrd<K%5R#2r#5jM%O6d;r+rd;95#(Kdk9MN#Nj;5+2#jM-95M2N-+K#%Mj6N-#jd29N;d2M;+#M-Kjd+#5#K6MNj+6MzK-+N#-+K#Mr%52;##d29Nj+O#8+2M-K#dj#+NMM6Mj-#d56Orr;OjM-=rS5K;2F#OjO++j2Nr9d;;#Kj5Oj;6dN2992KNd2jNr++M5K-NrO#jjrjNO+-MKKOd-KMd2#jrr5+;5V-rrN#+j2+r;dr;6e+OMv2-Mj#6j-+--+N;9rM5Mj965dK9M2+K2+;##N+5r;+rr#Kp#OFj26#*+Ndd-#KrM5-r25#;j:+O5j-6KN,-2MjrMd+#5r-,7-;++MMK2dKMrrK;KM6>r-69;O5jN6--K+X5I#dSN#+r55-;K6(-29#+#6++-#+KK5H;2#-6r-r+2M+K9d9#5Q+d##+KN;K2j-e922##+K5O2#N66-Mj92+-r9-T#5O;N66-29O2dN-dM#6KK5;;9o9++MKK5d-#K;#69-;+jM9KK2KK;dZ#2r#rMOd9;26-2+6M#+jMNK+d5#-#566NV++2OK5d+NKdj#1r25#ddjd2jN++EM6K;drK+5##5r-5K52+#2;Nrdjr5N;5-6nK-O;9+O5jK6--K+_+#;MXj5Nr-NM;K6:-2O#d5Mr5556jjrrOM9-22++rM;#dK3+djj-KNNu;OM;d6ddr+r-9N5+62dM99N6NOM9MKOr522Nk9jMd##rrj5+;5jsMMK2d#Mdr5;+2O dOOjrO#9;6j-+95jK#Nr-Oj26K9OO9K2;NN+Kr2Njdr#K<jO6s.O-j26#-j-OdM#+3#5;j#-#5j9#6OKQ+MN2+jM#Kjd+d-jO66-O6#-r9j2+N5NM5N;-Jj9#;#2NN6+MMMr#M#M2dj#+r56#N2+#M2K9jsh9Od5K#r69+.jO6rN-+2#6K,5;;;rdO+;O6d-5+22;KBd+P#KO5d;d-N-#j#6;N;#drK5r;N2-rO5jj+ed--+;KOK;+OzMr+dN;F,r9Nj+69-;95MO5dddMrrdO!2Mr+ONjKMjNjd;M#rddrK5-6#-rKObOj9-2rKO#5#2r95-;9-#-Njd2N+-+K#2r65+#OrOOKj662+,+d2NK5dnr5Nd5N;r6W59jO6O+592<6+2M+K#dj#+#N0N-29#2KNd2+K;+5M-KKK5-6jN2#++jKM6K5d;#dwj59j;5-j2>K-(92+N#jKd5M;K66;2?+O#jj6+pNNNd-#K06O2rj5+;5>-OK9/22N#+jM5rMd-#K)Z2dNM++MMKNd-MrrM59rjOX;+G5O-OO+6MNKd+N;6v+O_jN29j#6d-j9+25MMrj5;;96L;+6#O5j-6K66Kjd+MjrdO-;N6;N29MM#NK25rO+-MKr095rONrMd#Mdr5j29H5d;jr-O65+;KjMod52;rK9rjM-j-j#j2O+9Nj#6dr5;,;Bdj9dj#Nr+55;-9#M2K6d62+-r9-KK59;_z2O#O#9N#6KrdK#6{25dj+55j+f-OK9J9;M-r;5-;666O-281;--9OM#KjdrKad-#2r#5j5O9M2+K#+;##5#+N#d&K5rjjO2jO6#-j9+99#Or-5;jO-#d+jd26jKMMNf+2M#Or6O2M9-+9K}K59+#r5dr5j#K;-d292-5Nd6KNr;;#+2M;K#dj#+#9GNNj62N#9#2jN+jM-6-92;2O+#+rK+rM;j;9O O5#j6Kdr+2fj6=-5922#NjN55M;2e5O;22r;NM+;Md9KMMKFd2##Md6/OO9;M7922ON#+jM+MNk55rjO69+#j;M6Kj2KKjd1#2r#Kr-jjN2KNM+6#;KdM+u2d5#-rK++_-KN#Od+*2+jjjrd-5;M2rd2dMrRMK5d?9g-d59wr6N;M6Mddj-j9-2+N5+-+#;dpK-bjO6-j-2#-K+mM22Oo;O#;K--5R96M#9jMMN++5M-#NhNOr;N2M5O9r6-r+d9M6r-djr5O#;-aK-&-;+N#2rKdr;KOKd2jM2jjjO2jM6;-99d2O6NM;55;K1-OK9H9iM;rMdNK-5M#Kt:O259+;MjK+d6#6A###rr5j;+15rr-r+K#GrM5#!+NOOdjO6rj#65-j9+252rrj5rj+qd-2G5-jj-6KN8N;5+;;0j5r6-W6N#9MM+KO+NN-d+MKrQ5256j9M!NM+dKKN#59;je+5NjK5KjN6?-29#9N#9rd5C;MJK92;#69N6++#EK9dK#ddj#Nr+55;-;2M2NMdOMrrj56KK5O;1/2O#O#9d#(r;#KM2r9O5j;6#N(96M>922NN#+jM+MN685r922j-d++K+O-dO;jd2#Kr#5j;+;NMWK_+6#BKOdOe+K95N966Oj#2N-j9+252drN5rj^r9OOjO6dOrd2#2KO52#N:Od2j;62-#99M2O9d-#KrK#4r;52;#wj3-NMdAM5K;M#KKdj#+r5+;K<K+jd#---O6hr6#d952;Kn#Ojj+;-2NK-d##MrO5O#-yOOK952;922#Nj++M5K-6K56#2Ojj56+-59-9a#rtb5+r+5K;5u-OKOddi#5Kr5-#rdK;+q&O2j#;KM9Kj5;rKK95Mj+,O-5A--+jK27N2;NOd-B#62;+M+dK-K-99;JN6NKd9#!r25#559b2M-r+dMKK959;ddO#OrKO;j 62-#OO+!r5N#9rMMKN;j69O+j56-26K65d#dr59;#d62-#Mv6;N-d;#-r6O6;-52j#z#Ojj++2#7r25H;;-K9;296K+59O2;56962M-O+9#;5F;5B2O#jj;KMMK+52#;4#d+jr6+Or,K-O9/22N#N+ddjMrr5r9M2jO#99M5NOdd;6d2#jr#5j;+jq6NK6+;N#dMMjK+d5drj96-N+9dM+d+95MNr95Kjj,N-#jrO-9+6KNz+2dj;rO+OKjM-K-;+52MN95n#j+K#;re52;##+6dN++o2rK9d9Kj5M#+r55-56+;M#Kj+O#jrK9r#rINO99j69j5M#--9KMa;jrdOdj-QO-5922rd25yrjr5dr;}6+9RjK6N-+M+#XO6;-#-Z95;r+O#;5)-OKOMd6#jr#dN;-KK5rj#6ONd+d-+952-NKds#2r#T9d+k--#jK2AN2N95O#5KKO;926--96jNM9+25N-N55d;dW--59j2MN5+;rpN#5M#5d5;dr-5KjhKO#9#KN-OMVN;K-d252-OMd6r2r#+2+2M-K#dj#+jj6OOr9#M;K+d+#6r+5Mrw5r;2s#Oj5-9rMrK6d;;sr+59jj6KdN922#N9++N+d2M5K-dKdMj56dNd+-M5K++r;#r9#jrK5+;5S-iKNrd;MNr556;d(5;JGNO2j#6jqONO52Mrr-O#jN-j5O+62OKm+#N#+KMjK+d5d#jN22N;9dKjOO+O#Kv2#2rN5#;j8+rKN6d6MMr#dN;je-OMjO6-j26r-#9j2+22r;5;;+YKONjN2GNKj;#2K;drKj59#+r55-MjO5d522rr;djM-j-92692NNM5#P-65j2NM2Kdd##jr+rN-#9NM#Nddd##+5MKK-dK;*#922NO+;#K9N2KKpd256rj5+;5gNOK9c22KjdkM+K5d-KMqzO2j#2+K6952-NK69#2r#5j9K2VO-jK2XN++#M9K+h9#-s2t-j26#-j9K25NN+K#YQN5#;jJ+OOj-6KNFd#5KKjd+#55-5Kj_62NjrN2+NO+-+sro52;#2jOOj56N-K+6M22Mdj;5wr5-j66)2K9#2jN++5#;KK56;2H9Ojj+65--ddMxK2d##jr+5-;-YK--922#Nj+dM5KKdK9=6KO#j96+-59-52KHd295rj5O;5/-OK9M224#6MM+KNd-K#xHO9j##jK6952rNKMN#2dO5j++66O-962B6++#K&K+d5;6rKO6j269-j9525r-5O#*r#5#;9B+-dj-6KN;+2M+Kjd+#5rK5Kj^22-#9O2+N5+-#pr,N2OK}jONj522-K+NM26#O;#+rr5-;r6YM#9#MjK-+5#1KKNd;2:dOjj+6r--+MMFK2d##9r+O-9;,K-j92;+Nj++M5<-52;LW+O#j-6+2j9-#qrOd2#OrjOj;5C-OK+2M2N#+KM+r+d-#K=!O2kd6j-K95M#NKd2#2=#s+;+YrO-6d2VN++##jK5d5;xrKO+j26d-j9+#MN-d*#%rj5#;9U+N5+#6KN2+2M;Kjrd#5r--#jZ6j-#9+2+N5+-;sf-52;dbj#rj56--Kd2M5K#d-#+6K5-;K6w-2ML2jN-+5#2KK56;2Y#;Oj+6---+2MgK#d#jj5j55;r%K-292j#Nj++#6K-5M;ZcMO#jj6+N-+r2KKjd29jrj5+;5A--r9:29N#+-M+KOd-#K5;O2j96j-N952KNKO/NNr#55;+i-O-9;2tN2djMjKKd5#-rKO#j2##N-9+MgN-6+#Dd25#+j66O5926K+j+25MKj-+;Or-O#jm;M-#N;2+<5+KMKrj52KrWj;5j56-K#+TMjK#d-#+rO5-9KOK-29+2jN5+59-KK5ejjo#O-j+6O--9KMHr#5d#jrr555rvK-=922#N+++#IK-5;;Q1MO#jjON-5+R2KKjd2#jrj-+Kdx--M9i2#N#r-M+K5O+#Km9O2jj6j-+95MKK+d(#5r#25;+?5O-+_OrN2+NMjMkd5#-rKO=6K6#-N9+MMN-+r#Qr2#d;j4NO59M6KN2+2;#d#d+;ir-Oxj3;2-#9j2ON5d#MKr652;#Ij-5jN6-N9+e5dK#dj#+r5O6;K6+-29N2jNd+5M-dM5h;+4#OKj+6---dKOrK2dO#jr555N2wK-v+d2#Nr++M-K-dK;E6#-Mjj22-5-j2KKBd2;jd;5+j;U-2#9)22N#+jr#K55;#K7OO2j;6j-+6r2-K;di#Or#5+;+25#OjK2+N2+;Mj#dd5#-69Ouj-6#-+9+25N-57;jr25r;jM9O5j-6KK226M#r2d++;r-5Kj/62+^9jM2N5d+MKr652;#5OO+926-N++CM#K#Ojrjr5O;;K6+-2O#2jN+dKM-rd5,;M=#Ojj+2-N59KM-K2d+#jr+55;-62-^9N2#K2++MOK-dKr;p2ONjj2M-59K2K0R26##G:5+j2E-6M9W22r6+j##K5dK#K1!O29j2M-++92-rMd:#2r#5+*Kg5-5jKM;N2+#MjK+;j#-y5Oq9C6#-99+25R-+K#5r2Ow;j/dO5+---NQ+-M#KKd++5r-5Kj662N49j2dN5+-MKG2O2;#6MO+Kd6--K+?M2r6dj;#r5Od;K66-29#-ON+d#M-r55);#v#Njr965N99KM+K2Kd#jr+-;;-6O-x9#2#Nj++#-r2dK;KA2j-jj6+-59KK#KG56##ZM5+;5W-OK2-22K6+j#9K5dN#Kq?K2j#26-++92-Nrdqj2+x5jjMJ5-#jK;9N2+##+K+59#-rKO)j+6#rj+r25Kd+K-5r2Kr;jM+-;j-2ONUdrM#6Od+95665KjN62#29j;6N5O-;+rX5r;#+dO+dr6-rKddM2r6dj9Xr5N6;K629+9#M#N+56M-KK58j2dNOj9;652r9KMKK2d##dr+O;;-6O-X9M2#Nj52M5r9dK;<W2O#jj65+,9-M5KI5;##rj5+;--2OK9N22Kr+jM+K5dK,#(3-7j#6N-+952-Kn#j#2vM5jj#Z5O-jK2jd++##jK+52#-rrO*j96#-j9525N-+K#Or25#;jH+O-j-6KN/+KM#Kjd+#5rK5Kjo62N29j2+N5+-#Tri52;#6MO+j56--K+2M2K#dj;9r55-;K222r9#M9N+--M-KK5w92g+Oj9d65NN9KjcK25j#-r+ON;-M_-^922#Njd+M5rNdKjMF2OjjjM+--9-MrKZ5M####5+95gNOK+622K;+j-MK5526#&>-;j#65-+9O2-K6dF#2rj5j;+g5-9jK2oN2+#M+K+d5#-&5OEj26#-j9525N-+K#Kr25#;j_+!2j-2rNwd;M#K9d+j5yO5K9662--9j9rN5+-;+r%O;;#xjO+jN6-rKd5M2r9djN2r5Kd;K#nNM9#MdN+O2M-##5I;+-5Oj9-65N69KM6K2d;#jr+5-;-DK-I+22#Nj++#5+rdKjMs269jj2--59-M5K75M##Ed5+;O_-OK9d22K;+jM+K5d-#KPPOjj#2+-+d-2-NKdb;#r;5jjOb5#2jK2xN2dj#-K+5K#-+jOJj26#N++525r6+KjMr25#;j65j9j-M#NWrNM#Kjd+;-695K9962N99j2+N5dK;;r?O5;#2#O+j56-K&+-M2rNdjO6r55-;K22NN9##iN+O6M-KK5(j#z5Oj+M65;59KMfK25jjMr+-j;-#6-u922#K+M;M5}ddKKE(2O#jj25No9-#-KHM+##rj5+j-26OK+r22rr+jM+K55K;5kyN2j#OO-+952-r(d;#26;5jONV5O-jKM2KO+#;+K+rM#-rKO39#29-jdO25;N+K#Vr2Oj=M_+NKj-dMN!+2M#r+5M#5265K9962-#9jM5K2+-j#r_O+;#bjO+9-2M-K59M2rjdj#+r5OK9+6YK59#++N++5M-Lk5+;22NOj5265--9K#2r9d#9mr+Kr;-fK-Q+#N6NjOMM5j;dK;k}2-j9j6+rj9-#jK_d2##h+O-;5MdOK6+22N#+j#5rKd-9-1 M#j#6j-++-2NNKOr#2.;5j;+<5-K992cY2+##5K+d5#-67-9j2#;-j2525N-+K;2dr5#++p+K+j-6KNDd##iKj-O#52j5KjV62Nj9+2+qK+-5-rI52;#6+-5j5;6-KdOM2K#dj;56#5-d#6k;;9#2jN+d-#BKKN9;2O2Ojj+65NK+dMB65d#9-r+55;-2)jN92;NNj2cM5K-dKj26KO#5C6+2K9-2KKY5#;+rjKM;55jOK9(22KjdOM+2jd-OdX0O2j#2+N695jdNKE-#2r#5jj56;O-5-2V6a+#MjK+5-#rrKKrj25+-j9+25KKNO#8M25#j*{+O5j-MUN-+29;Kjk2#5r-5K926r-#O+2+M5+-MKr<O#;NxjrOj5MN-K+cM2rjO2#+MK5-6M6o-29#2jrM+5#KKKK#;2u;Oj95Od--d6M_MMd##jr+O-!dBKN#92OjNj++M5rKOp;&69O#9j6+-59-#Pr9d2;5rjr6;5t-OK+2M6N#dNM+5Md-#KJC-#956jKm95-NNKd3#20jO-;+2MO-O;2CN2+##+r;d5jjrK6+j26#-j+5N9N-5d#H+65#;jG+--+96KK-+25;Kjd+#5*K-9jp2r-#d22+N5+-;mQ95292vj;#j56--Kd2#OK#O;#+MK5-;K6:N#9r2jr++5-+KK5P;26j-rj+MO--r+MgK2d#;+5;559K3K#m922#Njd5#2K--6;i;NO#jj6+N-d22Kz#d25Orj5+;56K-;9e#9N#NjM+K5d-j,^;O2+56j;;952-NK52;jr#-N;+25O-jK2^K#dMMj6ud51JrKO)j22jj;9+;MN-Or#8r25#j+59O5dj6KN-+2M#Kjd+Ajr--TjCM--#9+2+N5-2MKzM52;#LjO+j52KT++^#jK#zj#+r55-;K65-2+d2jK5+5M-KK5f;-8#-5j+6---d#MpKj5##jr+55MKcK-692##KN++#NK-Oj;>56O#j-92-5dc2K-6d2#;rj55;56_659<22N#j9M+KOd-#KdjO29+6j-+952-NKd>9+r#OO;+=5O-jK2iN+#5MjrKd5j+rKO6j269-j9+2-N-+K#vIj5#;jX+O5jK6KN(+2#9Kjd+#5r-OSjp62-#+O2+N5+-#KO;52j;0jjrj5M2-K+jr+K#5-#+6#5-;r6F-M9#2jN5+5M-KKO6;2{#Oj9+Nr--+rMS_6d#;-r+O:22eKNj92M5Nj+dM5KNdK;_U#O#jj6+Nr9-2KKg52N#rjOd;5;dOK+j22Kjd;M+?Bd--6q(O2j#MjN295#2NK5j#25;5j9+22O-+#2PK++#-6K+5!62rK-+j26j-j9d25NK+K#.r#5#;j%+-Kj-6KNx+2MjKjd+#5:N5Kj,62-#OK2+rp+-;jrS5M;#2j-dj5M2-K++M2MOdj#+rr5-9j63-29#2dN+O5;+KKO+;2+KOjK;65r-++M(r5d#jKr+hi;-6#+j92MNNjd6M5KNdK;2b2O#j+6+-59-#2KUd2##rj55;5G-OK+622N#+j#+MKd-jj:Z6;j#2r-+95#MNK5j#27-5j;dw5N-9P2_K++#MKK+N6#-rK-Oj22--j9+25K2+K9=C25#jKQ+##j-OONwO2##KjO8#56d5Kd;62r#9+2+r2+-O-rSrr;#Mj22j5M#-KWMM26ddj9+j#5-9j6qK59#OrN++-r2KKOd;26NOjj+65N-2#M:r5d#5dr+-M;-hKN;92M5Nj5)M5KNdK;1XjO#9-6+-59-2KKDd2;5rjOr;5J-OK9}22NjM-M+I2d-;-AhO2j#2j+N95#2NKKK#2/-5j;KN,O-+j2*KM+#M9K+dO#-rKO2j26#-j+r25N-+K;/+25#j-S+rjj-MjN/d#M-KjO^#5jr5Kjk62K#dM2+r2+-;jr{;M;#2j-Nj5M#-Kd+M2jrdj#K-f5-9+6qN#9#29N++-M-KK52;2Z#Oj9r65--9KM K#d##jr+-a;-ZK-{92j-Nj5sM5njdK;6p2N#926+K29-MjK{Kd##rj-;;52jOK9v22N9+jj+KNd-j+%LM-j#-;-+55M2NK55#26-5j5K45-2M#2FKN+##jK+dO#-QyOBj26j-j9+25rM+K#}r25#;+1+O5j-M#N8+2M#rjK9#56j5K-M62Nr9j2+K2+-;jryO-;#W9O+9-M+-Kd+M2d*dj#+r5OKjO6_NO9#j+N++5M-}K5;;26NOj+665r-9K#2K+d#j6r+--;-:K-_92MONj56M5%9dK;2a2-jKx6+K#9-9mKPd2##6j6M;52jOK+522(#+j#5r;d-j5}GO#j#6j-+95M)NK55#26?5j;505-K9r2VKN+#5dK+d5#-6KOjj22r-jdM25+;+K;2s95#92P+r-j-6KNa52#?KjO##56+5Kd*62Nj6;2+r++-+5r152;#WjN#j5M+-KdKM2Kjdjj+rN5-956(NK9##-N+d-#5KKON;2d;Ojj+65K-dMMprrd#jMr+kj;-2Z-592#2Nj-OM5K-dK;46;O#+M6+--9-McK*-2#drj-;;5M+OK-j22i#r<M+k9d-K-eG!-j#2+-K95#5NKdO#2r#5j9+65O-+-2<rQ+#5KK+5-;rrK-rj2#--j9+25KKd##F625#-+>+O5j-MFK++2;;KjN.#5r-5Kjf2O-#d#2+rO+-#_ruO2;O0jN;j5jK-KdKM26#HW#+695-KM6V6+9#Mj6O+5;dKKOd;26-Oj++6N--d-MorNd##dr+-5j;!KNK92#2NjK2M5r-5M;H6rO#6d6+K+9-2KKjd2j2rj5+;5_-OK9VM-N#5;M+K5d-#K V-#jd6jK+95NYNKdy#26#Oj;+25O-+K2X2K+#Mj2rd5j-rKO6j26j-j+5M5N-5r#J5-5#;jZ+N5jr6Kr6+2;;Kjrf#56-O-j7MM-#d92+r#+-#KrO529#Aj;Oj5MN-K+2K+K#O9#+rN5-;K6A-+M52jr5+5M-KK56;2.jOjj+6---9KMb_Md##jr+55;KyK-f92#MNj++M5KK;#;^2;O#j96+-59-M#5jd2j+rjOM;5*NOK9j22N#++M+K5d-jd>nO2j#6j-5952-NKOy#2r#5j;+<-O-jK2^KK+#MjK+d5#KrKOBj2MM-j9+25N-dZ#or25#9dZ+O5j-6KN2+2M#KjOh#5r-5KjjN+-#dO2+K#+-Mrrb5M;#yjO5j56--KdOM2K#djj+d#5-+#6tNO9#2rN+d-#;KK-9;29jOjj+65NK+#MS85d#-rr+55;-2K-592#NNj5KM599dK;j-+O#d66+Nd9-2rKLdd##rj55;5t-OKd922N#+jM+K-d-#K*sN5j#6j-+952KNKd%#26j5j;+?5O-942fN2+#;#K+d5#-rKO2j26#-jd-25N-+K#xr#5#;j}+NNj-6KNS+2MjKjd+#5265Kj862-#OK2+kM+-jdrZ5M;#2jOKj5#;-K++M2MOdj#+6;5-+d6=-29#2dN+O5#NKK-O;2+KOjO965r-+rMfENd#jKr+W_;-6#+j92;ZNjd-M5KNdK;2U2O#j+6+-59-#-KLd2##rj55;54-OK+N22N#+j#+;Kd-9d<^6;j##2-+95#9NKOd#26r5j;dU5O-+d2TrO+#;+K+d5#-rKOdj2MN-j9d25NN+K;2}+5#9rW+2Nj-6KN}52#;Kj-6#52;5K+N62K#9K2+{M+-j9rI2N;#1-9Kj5#9-Kd+M2K;dj#5r55-j_6)-29##9N++5M-KK52;2F#Oj+965--9KMsdjd#jrr+N;;-:r- +#MtNjO6M52KdK;*w2N#9K6+rM9-;9K(-2##3+-#;5M9OKO-22N#+jM+rjd-99tSNNj#6+-+d5#9NKOd#26N5j5-E5N-+22JrO+#;rK+2;#-/#9jj2Mr-j9K25NN+K#6r25#;+,+O5j-MON<+2M#KjOK#52;5K+O62-;9j2+NO+-MKr_5M;#sjO+j5Md-K+,M2Krdj#+r55Kj96F-29#dN#9r-59j66 OMj96Oj+65--9KM8K2d#MjO95-j2<K-I92djMOr;5dj2sM;2s+O#jj6+MMK-+r#dy#O9r+5N;5=-OKK#+MMjr2dNK-52#KE:O2-N+#MONrdK;2d2#9r#5j;+956NN9d2#;+#MjK+d5#-rKOe;2;M-d9d2-K5+K#7r2KOOO9-rKN6d6MMK952#5rdO+9v26j26j-#9j2+#(r;5-;#N;;#fjO+j5O#-K+ M2K#dj#+r5OK9M6R-M9#25N++5M-E_O%;2njOjjd65--9K;BrNd##+r+5-;-6+-09225Nj+5M5KrdK;/y2O#996+-O9-2KK7d;##r5-;;5{-OK9N22N;+jM+;Md-;#qRO2j#6j-+95N-NKd9#2rd5j;+,5O--r2oN++#M+K+d-#-h#M5j265-j+;25NN+K#4r25+O2s+O5j-2ON)+MM#Ij5r#5r-5Kj;62-N9j2KM#+-Mrrc5d;#T9O+j-6-N2N-M2K#dj#rr55N;K6B2O9#29N++OM-KK5_;26jOjjd65-N9KM_K25jK;r+5-;-6j-f922#K+29M5KrdK;2m2O#jj6-679-2rK1O2##r95+;59;OK9;22N;+jM+K5d-OMH8O9j#6O-+9K2-NKr;#2rd5j;+?5-6jK2j;-+#MOK+O##-rrOJj26#-5N#25N-+K;5r25;;j:-6jj-6KNY56M#K9d+;-9j5Kj;62-d9j2+N55-#Kra59;#JOO+jN6--KKdM2K5dj#dr55-;K6o929#2NN++KM-KK5p;2M#OjjN65NM9KM6K2d+-Mr+5O;-22-s9M2#K+72M5KNdK;9t2O#jj6+959-MbKkd2##rj5+;5N;OK9622Nj+jMOK55b557mO2j##j-+9O2-rT&5#2rd5j;N*5O-jK#0+-+#MOK+dr#-8dO:j269-j9K25NN+K#!r25#jKZ+-6j-22N:+2M#Kjdd#5_65Kj962-j9j2KKO+-#Mr_N2;#49O+jO6-N2N-M2K#dj9+r55N;K22M-9#2ON++rM-KK5e926#OjjN65N69KMjK2d#5rr+Ox;-.r-%922#NjM+M5rMdK;#G2O#jj6+r59-MMK dd##r95+jijjOK9622r++jMdK5dN#KL#YKj#6j-+dK2-NrdY#2}r5j;+V5ONjK2=N2+#MjK+d5#-7#OJj26#-++E25N-+Kdj;96p-;jO2MKqd9NUrN#+d#Nr2O9j#2dr6#N29j2+N5N259;KUjd5jr25NNdZ66K+dO;*r5#5rK5-;K6>f5Nd+9M-+-#-KK5t;2#-2ON;9OM5KNdd#jKjO;j96K5-jrM2Kj2jNK++M5K-KKOr9;6NN5+6MdK5#KKJd2##6jN6;5 NOK9!22N9+j#5rNd-;6&cO9j#6j-+95M+NKd6#2r95j;5I5N-962HN#+#MjK+dN#-6COjj26+-j9-25N-+K#yqM5#;+,+OKj-2wNb++#5Kjdd#5%;5Kj662-;9j2-Mj+-MKrh5O;#o9O+jK9+-K+LM2Krdj#dr5O2N66{-#9#MON++OM-Kr5:;jj{Ojj+65K69KM6K2d5Odr+5-;-6--o9M2#N9++MK#+dK;u12-2jj6d-5+E+5Kzd2##E95+;O*-NK+h22N9+jM5K552#Knj2;j#6d-++K2-NrdQ#Mr#55O#g5O-jKM#N2+;MjKK;N#-m6OV9j6#-99+2ON-d2d-r25#;j6-O5jN6KrAd2M#Kdd+#Or-O#j3626d9j2ON5+KMKr 529#6jO+jN6--r+WMMK#5+j?r5Oy;K62-29#2jr+52M-rM5:;Mx#O-j+65-r9KMjK2d9#jr-55;-6r-0992#NO++#BK-OK;#:2O5jj65-5+22KGx55##rN5+;O=--#9x22r6+jMKK552#Kf9O2j#jr-++62-KMdz#+r#5j5Ne5-MjK22N2+#MjK+O;#-rKO,jM6#-j9+2ON-+K#.r25;;jv+O5jK2ON.+2M#2Kn6O6j#65-d9d2-K596#Kr65Ord52;#:jO+NM6--r+zM2K#dj#+Y}6r;K66-29+2jNd+5MNKK5#5KS#Ojj+6K--9rMcKjrz#jr+55j#?K-6922#Mr++MOK-dr;)H2O#+j;N-59N2KK6d2#;rj5+W5_--69!22N#+jM+K5--#Kh6O2j96j-d952-rdd^#2r#59;+&5O-jr2^N2+#Mjr#d5#-rKO2j;6#-j9+9M#r-r#2rj5#;j +G2N69rM#+#M+Kjd+#5jMir-N99-j+-2+N5+-+;;;6j5#926dKM+6#R-j5#;M3M+Oj2=NN:962;K++O#5+-#5KK5F;2#56rNj9K62K952;;H++dj:6M-+92-7922#Nj++M5K-dK;ss#OOjj6+-5--d5#6RO5dj+6O;-66OK9c2226r;d-#rV+;Z15O2j#6jerNr5gM6r;O#j5grOOjrOK9j2bN2+#9K;N 95Nj-6r-O9+-+9K25N-+K++;9B;-29-22jK2KN,+2M#2KtNO9;N6--r9O2+-+d9#d1{+K;66#-+2-O+j56-KK-;M2K;dj#+r55N;K22j69#2dN+d2M-KK5t;25dOjjd65-r9KM2K2d5NHr+5O;-M2-19M2#Nj++MK#+dK;Jc2N+jj6d-5d-9MKpdM##rj5+;r.-N%^r22N9+j#2K5d-#K><;9j#69-+9N2-KTdI#+9K5j;dz5K4jK26N2+#MjK-rj#-rKOb+j6#-99+#5K-+K#6r25#;j62O5+-2KNh+MM#K9d+;;r-O-5K62-59jM9N5+NMKr652;+j2O+j56-NN+RMMK#d55#r55-;KM2-29;2jr+-rM-Kr5J;2e#OOj+2-jO9KMMK2dj#jr+55;-OM-89M2#Nd++M-K-5#N512O;jjM--59N2KKqd2#+;25+;5k-K29Z2MN#5j9NK5dN#KLIO2jd6jN56d2-K6dA#Kr#5j;+F5j6jK26N2+9MjK5d5;2++OYjM6#K59+2ON-+K#Urj});j8+O5dT6KN6+2#jj0d+#Or-O6j.62-#dj#jN5+NMKr652;NPj-5+.6-N6+8MdK#dj#+r5ON;K66-2992jN5+5;-rO5U;MH#O9j+6K--9K#jK2d9#jr+55;->K-_+82#N9++MNK-5X;!.2O;jj6d-59N2KKzd2#+;25+;5A-K29Y2MN#+jKMK5dN#KIGO2j#6j-+6}2-Nrd)#Mr#5j;+w566jK26N2+jMjK+d5#-6dOYj26#-99+25N-+r#/r25#;j{+O5j-6KNd+2M#Kjd+OMr-5Kj&62-#9j2+KVrrMKrz52;+ojOdj56N-K+#+KK#dj#+rK5-;r6a-jNE2jN++5##KK56;23#6rj+65--9rMSK2d##jd#55;-WK-6922;Nj++5MK-dK;)4#O#jj6+-56+2KKQd2#;rj5d;5B-Nd9I22N#+9M+K5d-#KYSO2j#6j-+952-NKd##2r#5j;+9MO-jr2PN2+#MjK+d5r-rKO2j26#-j9+25N-q9#brM5#;+t+OOj-6KKO+2M#Kjdd#5r-5Kj662-#9j2+NO+-MKr 5#;5%jO+j5jKMMKN56;5rO#-r55-;K6H2O9#2jN++5M-KK5x92#dOjj+65--9KM6K2d#Orr+55;-6.- 9M2#Nj5MM5K-dK;6:2O#jj6+-59-2KKzdd##rj5+;-6.OK9h22MOK95;#rd-#KbPO2j#6j-+952-Ktdj#2r#5jdK9d2MOM+KMj+jMKK+d5#-##6r-dj9M5Ndd-;Sdy#+r25#;j;#2MNM+j##KO52#Nd5;#r-5Kjm;d2dK59OMrrKO#;di;OdbjO+j56--K+Ad-N-Nj#rr55-;K22#a9#2jN++OM-KK53926MOjj+65--9KMjK25j;Nr+5-;-6M-3922#NjdrM5K-dK;2x2Ojjj#+K99-2KKwd;##rN5++5gNOK9k22N++jM5K5d-;;^0O2j#69-+952-NKdw#2r#5j;+f5O-jK2KN2+#MjK+#O#-rKOzj26#-j9+25#;+K#6r25#;j0+O5925+Nw+MM#Krd+#Or-5KjC6j2>9j2+N5d;MKr652;#jrO+jO6--r+1M2K#djK#r55N;K66-29;2jN+rMM-Kr5t;# #Ojj+65j+9KM6K2d;#jrd55jhj5-a922#KM++MOK-dKOdR2O;jj6O-59-2KK_2K##r95+;OX-Or9o22MN+jMdK55Y#KPsO2j#O2-+9O2-Nrdq#Mr#5j9Mv5O-jK26N2+#MjKdd5#-rKOqj#6#-j9+2-K;+K#Rr2r9Odjd2+O;d2M;Kr59K+52#5r-5K5#9OM9N9+5#jr6+M#Mr2jyTjO+j56-9r+8M2K#dj#+r55-;K9d-29;2jN++5M-KK5jN-q#O9j+22--9rM.K2d##5;#55;-RK-+922;Nj++5MK-dr;R7MO#jj6+K5-62KK6d2#;rj5d;5?-M99h2MN#++M+KOd-;2;-O2j#6jNM952NNKd:5Or#59;+pOO-jK2Vr2-dMjKdd5#NrKO2j26#Mr9+2ON-d<#vrM5#;j2MO5j-6KN6+2M#Kjdd#5r-5KjW6d-#9j2+N-d2MKrT52d9#-25-O+dMM+2M5K#dj#+#56ON69dMjNNd;#j+-MrKK5B;2926ONr6-Nt9KMgK2KdO#j66K;K62-o922#22KN5-;-dKO#MNdMO;5;j6;KjNK2d-##rj5+5j9O2NNO9+MdKd5-;dtKj2c)O2j#6j29952NNKdz#2r#5j9+6OO-jr2nNM+#M9K+O5j9rKO2j26;-j9525N-dN#tr#5#;jS+O-j-MKN2+2MjKjd5#5?.5K922--#9d2+KC+-MKrX-291(jO-j56N-K+9M2u#NO#+rK5-j26J-99#2j22+5#2KK52;23#Ojj+2j--+;MGK;d##jr+55jM,K-#922ONj+5M5K-56;GV9O#jj6+-59-#>r6d2#5rj5d;5I-OKd72ON#+-M+rYd-;6P:N2j56j-r952NNKd2#26#N#;+62O-jr2gN#+#Mjrtd5;#rKO+j26+-j9+#jN-d##wr55#;+/+-5jN6KN;+2M;KjdK#5r-O9jn62-#992+N5+-Mrrp52;#)j-rj56--K+2#-K#dj#+#g6;-5+#29Kjj5MNrNdr;M1KOjj;2#N-+N6;K-5M;jr;O#;Oer-r6g-#922#Njr;dOj%Gj;2z+O#jj6+(N-25c#6rr5dr+O#;5%-OK-j+OMdrN5+;dJK-2;M6ONK9O-+952-NKdz#2r#5j;+i5O-jK2_N2+#MjK+N5#KrrO^j26#2/952ON-+K#m#55j;K}+O5j-jKMrr;dN;5?6Odj5OHj+62-#9j96#+rrO2;66HO9jOO59+6--K+s9O;9N55NjNSr-M9K2jN;d##-Nd52rs5#;2v#OjN&+rMMKMM2rjd##jr+m6-O+*2-Nj9+#;NK5M;66;-U962jN5j+MdK;d-;#d##;rj5+;5j;OK9S22N#+jM+252O+Ky2Odj#6j-+Nzd6#6R#O6jjN+;56MO-jK2i#drM5+;MHNO-;r6M-96j-r9+25N-N65+;M6jO9jO2KN6dtN2+;M#Kjd+O+j62;j26O-#9j2+29KN5;;KWO-+9O6--r6KN2+&M2K#KOOjjM2&jm6j-29#2j#6r5dN;962-;fjONj+65--N_d6;Or959jO6K56GK-?92MjMK++MOK-5P;uc2O#+j65-59N2KK6d2;wrj5+;-Y--x9B22N#+jM+{5O9#KA2O2jj6j--95#-K6dZ##r#5+;+6sO-jK2MN2+9MjKdd5#-rKO,jd6#-59+2ON-+K#Qr2=N;j}NO5jK6KN +2;#rjd+#rr-OMji2#-#9jK#N5dWMKr;52;;cj-+2r6-N6+BMMK#d5#+A-2j;K6M-2+52jN++5M-;95g;j_#Odj+65--9KrdK2d9#jr555j60K-#-K2#Nj++9OK-dr;zA26Njj2m-5+D2KKwd2##+O5+jMv--;9a22N#+j#2K55##KV2O2jj6j-++d2-K9dB#2r#5j;+25N9jK2dN2+NMjr;d5#-}dO!jN6#-K9+25N-+K#dr25N;j6MO59j6KNj+#M#rid+jMr-5rjR6M-#95+#N5+-MKsd52;;mjO--j6--K+i9MK#d9#+65O-;K6O-29N2jNr+5#5rM5{;9h#r9j+6O--+dMXKjr/#jr+55dN{K-692Mj;D++#;K-5r;?G2O#+jN9-5+92KKOd2;Orj5+j;}--O9&22N#+jM+p5O##K)NO2966j-O95#-NrdL#rr#OM;+6MO-jKM9N2d2MjK+d5#-rKN_jd6#N#9+M+N-d6#q62O5;j6jO5956KNd+2M#;Nd+;+r-Ojjf2z-#dj;MN5d5MKrK52jdcjN+926-N-+/#=K#5;#+r5O9;K6r-29;2jN++5M-rN5<;Nw#-;j+6---+#M9K2dr#jMd55;N/K-a922+M2++M5K-Nr;vGMO#+j2+-5++2KKOd2#Krj-+drf--59I2KN#d6M+K5#-#KqKO2jO6j-+952-+MdB#Kr#O#;+J-O-9#dMN2d{Mj65d5#NrKO6j26+229+25N--1#yrM5#;5j#O5j-6K66+2M;Kj55-#r-O5j&22-#9j2+r5rOMKr-52jmFj-Oj5M-K#+4MrK#dr#+q25-9K22-2+22jK6+5#5KK5Vj-{#-2j+2+--+/MBK25j#jz#55j+tK-292##r2++#jK-55;R6jO#j-2r-5++2K26d2#;rj5d;56u659)22N#-9M+KOd-#KjdO2966j-N952-NKdj&#r#O2;+#dO-jr2YNr+#M5##d5#-rKKrj26;-j9-+jN-+K#*MM5#;9w+O56-6KN6+2#TKjd+#5r-;KjJ62-#9N2+N5+-###552;9hj-9j56N-K+2M2K+r2#+r55-jN6/-M9#2j2N+5M-KK52;2W#Ojj+M;--9KMbKMd##jr+55;-TK-x922ONj++M5KK5#;ck2O#5-+9M6-6d-##d##-rj5+;5;+29N9+5#+Kr5j;6dK;+UoO2j#;N2NKK9r#Mg2O+;NzdON(--#jK2nN2-55;#rKN-7;r22Nj6#-j9+25N-+K+V+6K#;jC+O5j-6KNf+2dN2jd5#Kr-5Kjh9d2;KM+NK6+-MKrwO#N2.jO+j52M-K+eM2m#OI#+r55-;K6y-;9#M+Kr+5MKKK52;2}#Ojj+2---9KMWK#d##+r+N5j+EK-_922;Nj+NM56-O#;D)2O#j56+NE9-2KKKd2##rj5d;5E-OK9Y22N#+jM+KKd-#K{ O#j+6j-+95dMMrrN59rj-9;+:5O-Njd##jr#5d22-d9OjK66N;++2ON5dM#5O-5Mj666+;956OKM#N6;r#5d2OK#O;M#rOj26d-#9j2+22kGO2j%KdOd95O59#6--K+bdK;Mr95-jN2CNx9dMPNO2KN++5M-7)5-;2A;Ojj-65--9K#2rOd##+r+5O;-%K-^d22-Nj+5M5KKdK;Mq2-j9r6+-K9-M/KDd2##rj5N;5_KOK9#22N#+jM+r;d-#rvDO2j#6+-+95M;NKd6#2r;5j;de5O-+d2QN2+#M9K+d5#-rrO>j26#-jdd25N-+K#2r-5#;jk+GKN6dj##-;5M;2}9O-2rO}jO62-#9jjd#jIMdrjd6;5M9#*-Nd+-Nv+dM2K#djd/jM6M-j9-2ONO+K#-+-##KK5_;2#N2#NO+K2NK-dM#9dj#Or+55;-jMv#NOd6T++5#8K-dK;_#;2MN2+9M-5r2KKTd2##rj5+;5C-OK922;N#+jM+;+T6-;!2OKj#6j-+O-d;#5r-5#jMf9-5jK/MKM+dN2+#MjK+d5#-NK6r526j-N9+25N-r#O2j6665+#rr-jK2#N*+2M#OK#j22OM+j666#NR9j2+N5NOOMj#xKON9#6N5N+OM5Kr5#Kj5d#+r55-5N+;MjKg+r#jKrdAjXS6-/992j-d+-M6K-dM;Odj;6r+55;-j6M#K9++#dN95k;266O;9jO9j965-K9-2KKGK;5N9q*N;5&-OK9G22N#+jj-25d-#K70O2j#6j-++2j-K0d5#2r#5j5-jrM#K29MM;K;52#NrK#K*2OTj26#MMNddK##+K9M2;N9+dMOKNMr;NNi+2M#Kjd+#5r-dKdr6#-59j2+N5N-drj2R9-295O59M6--K+u+j#dgKO-#j:N-a9;2K9j2-N++5M-jxC6-nj+2;N;6-K29KMcK2Nj59;O6;-M+>2rK9d2M5N-5-#NQ--M926;N+9NM+Nr59K252##rj5+5D9;25N-9j#jK95j;Nc-5r9269N29d#69-M5NKdx#2M5Lr-jjKT2N9d2#;r+9d;}xMO+j2O2926#-j9+92;6rO56jf6MOrj-h-NO+N##N2d;;+*-#-8e5Kjk626+NO5%#K+K#;rT52;#;-6N-NdXMNr2j;Kjdr#+r55-5#9d2KKUjd#9rj5OjZr;;2T#Oj++;r--+CMGKMd#jMr+O-rOsK-#92#2Nj++M5K-#M;8v#O#j56+--9-M#;Md2#jrj5K;5BNOK9622N+K2M+K5d-;#ovOMj#6jKM952-NKd6#2r#5jj5+#O-9.2xNj+#MjK+O5jdrKO2j26j-j+ 25KKd2#gr;5#;dT+O5j-6KK9+2MjKjd5#5rK5K922+-#9d2+Ka+-MKri-2jOYjOOj56r-K+OM2rj5-#+rK5-9M6L-29##jKj+5#YKK5#;26KOj95Od--+MM4Kdd##jr+O-65FK-j922KNj++M5K-O9;wCjO#j-6+--9-#SK9d2#drjON;5h-OKdzM6N#+OM+Krd-j+b3-#9j6j-K95MMNKd1#2oj5+;+66O-9+2(N2+#MjZMd5;6rKO9j26j-j+55#N-d##o_95#;j_+N5K66KNj+2M5KjO2#5gKONj(6d-#9N2+N5+-;xr#52;-gj-2j56--K+,#+K#d-#+(25-;K6s-2+#2jNO+5M-KK52;26#-2j+6---drMJK;d#9jrN55;KbKN-92M5Njd5#.K-56;hS+O#jj6+K5d62KKMd2#9rjOD;56K-#9)2jN#dNM+K5d-j4a+O2jd6jNr952-NK52;rr#5-;+26O-jK2<N2+OMjKOd5;2rKO2j22#N-9+2-N-dO#or;5#+j92O5jK6KNK+2MOKj5+Rrr-O7jb25-#992+K--;MKrM52;+ jO+j5M-N++,M;K#dd#+425-9%25-29+2jK6+5M-KK5 ;OC#Odj+6---+uMyr#59#jr-55j6tK-X92##r2++MKK-52;&L5O#9+6N-5+62KK9d2##rjO5rdF--#94M#N#+jM+r-Ov#Ky9O2jO6j-+95MKr+ds#5r#O+;+P5O-jK2ON2++Mjrhd5#KrK-z926#-d9+MON-d2#Jz#O6;jX-O5+-6KN +2;#r;d+#Kr-O2jV65-#++#^N5d6MKr952;#pj-5:d6-N#+{#;K#dj#+}-jM;K69-29O2jN++5M-r;5T;j!#ONj+6---+KM-K2d9#jX955jIgKr=+j2#Nd++M-K-5K;s22O;jj6--59N2KrKd2;#r55+;NY-Nj9:2jN#d+#9K55t#Ke#O2j#6jK++52-K2dQ#jr#5K;+6-M#jK2;N2dNMjK+d5#-6hOajj6#-+9+2-N-5R;9r25d;jqNO5j-6Kr0+-M#KOd+#rr-Ojj%2#N;9j2KN55MMKrV52jjt+O+966-N;+ZM2K#5+;9r5O#;K29-29#2jK52dM-r95C;dp#Ojj+65#29KM;K2dN#jr555j-6!-/9j2#K9++MrK--Kj6V2O+jjMM-5dM2Kr252##rO5+jz4-OK9q#2K5+jMNK556#Kk+O29j6K-++T2-r;di#2r#O+9gh5-MjKM9N2+#Mjr5Md#-pjO49d6#-j9+25_K+K#;r25-;jq5O59-MdN&+jM#K9d+#rr-NK9M62-+9jM-N5d-MK2I5-;#*5O++d6-N5+/#2rJdj#-r5-#;K6M-29##2N++5M-Kr5q;2i#O+j+65--9KM6K2d##jr+55;-yK-7922#Nj++;#K-dK;nJ2NKjj6d-59-2KKFd2##!W5+;Os-Or9^22N#+j;2K5dN#Kh%O2j#6j-+dL2-Nrd>#2r#5j;+B5NMjK22N2+;MjK+d5;2H2OJj#6#N69+2ON-+r#krjm!;jX+O5996KN6+2M##rd+#Or-O<jy62-#9j-#N5+NMKr652;; j-58d6--r+mMMK#dj#+r5;N;K66-29#2jN++5M-;95k;M>#Odj+65--+#5MK2d;#j 955;NoK-6922+M2++M5K-5N;f=MO#j59#-59-2Krdd2#;rj5+-Mt-Or9e2jN#+jM+K5-d#KH6O2j;6j-595M2j+dX#Mr#Or;+SOO-jK2>NjKIMjK+d5j;rKO6j26#2r9+2-N-dM#Ur25#;j22O5jr6KN6+2M#Kjd+j6r-OTj36#-#9+2+N5djMKrM52;5{jO+j56-KM+UMjK#d+#+r55-;K2+-2992jN5+5MNKK5 jNW#Ojj+6O--9KMPKMd##jr+55j#.K-m922jNr++M5K-6;Or9#6rNd++2ONrdMK2dO##rj5+529;2;N++KMNKN5h;KdK;6.ZO2j#;rMOOO2KK;dW#2r#K5ON9NM&KW+r#O+jMKK+d5#-;66M-M+26#-+jN#rdh#;r25#;j9+6ON;d #M+##2Kjd+#5#M6MN#;j2dKd+OMrr552;667-+9dO59j6--K+a9##Nu2O#;-6OOr+22jOOdO#6O6M-KK5b;2O;Ojj+65--9KM)K2d5NEr+55;-6;-89M2#Nj++MK#+dK;Um2OOjj6d-59-d9KZdM##r95+;5W-NKO;22N;+jMdK556#Kv32Oj#69-+9-2-Nrd<#j;S5j;+_5K2jK26N2djO}K+dO#-s#OAj26#N+9+25NK+K#6r25#;j2+-2j-23NX+#M#KNd+#50O5Kj262-99j2+N5+-#+rZ5M;#_jO+jN6-N2+OM2K#dj;-r55N;KMsL99#2-N++rM-r65^j#5MOj9g65-K9KMDK2d#KOr+OE;-6j-c9#2#N-62M5r2dKj#V2O;jj6+-5+x+5KXd2##J55+;OS-NKO;22N5+jMNK55v#KeA2Oj#6--+9-2-NrdD#+#K5j;d(5-djK26N2+jMjK-rj#-rKO jr6#-99+M-;j+K#6r255;jD+O59K6KN%+#M#K9d+#5r--K9262-j9j25N5dMMKrw5d;#D+O+jN6--K+vM2KNdj#dr55-;K6M-29+#2N++5M-625a;Mx#Nj5N65N29KM;K2d9#j>5#d;-6j-P952#Nj++M5d6dK;jP2O-jj65-5+256K&d+##6+5+;Op-Or9x2jM7+jM+K5OK#KZ6O2j+92-+952-a2dq#Mr#-jdNz5-2jK2;N2++MjK+6M#-C#O)j#6#-99+M}Mj+K#6r2-,;jzdO5jK6KN#NKM#Kjd+jjr-5rj_62Nr9j2+N5+NMKr352;;bjO+j56-Nd+mM2K#d+#Nr55-;K+02MNNd+#O+-#+KK5n;2#-6r-r+2M+K9d9#5^+d##+KN;K2#-Z922#6NKN5KM-15O69O6dN+;KM-KOdO2Mr55;j+pdON+C2MK22#Nd+jM+K5KdONj#69Nm6+N6952-NK*9O6jj66-O956NN6+;N#+OMjK+d5d-j566NO9dM+KO2-K5+K#^r2K5Or9j6KO2+9#2r;5+2dXiOMj+62j26;-#9j2+2Mrr9rr2OT;#>jO+O6+6#2-#d9;9rd5Nj+6COr9KMjK92+K{+5M-KKK+-99669Nj+dM;K2M2Kjd##jr+66ON9O2;d;2#Nj++M5;;dK;6(2O#jj6+-5+2O+K}dM##r55+;Oe-OK9v2jMU+jM+K55:#K76O2j+92-+952-KMd1#Mr#5j9Mx5O-jK26N2+#Mjr56##-rrO>jM6#-j9+M-N-+K#2r25d;j +O5+-2ONq+#M#K+d+;Mr-5Kj962-j9j2ON5+-MKrA5N;#T9O+j56-N6+nMjK;dj#+r5--;K66-2d#jON+dHM-rM5:;5}#-+x965N#9KM#K2d##jr+#r;-6#-J952#N+++#!;rdK;j*2-;jj6d-59N2KK#KK##rj5+jO^-Or9 2jMA+jM+K5O-#KC6O2+#;O-++^2-KMdP#dr#O+r9W5-#jK25N2+#MjK+Mr#-t#Opj56#-+9+M{jj+K#jr2-#;jpdO5j-6KN#NKM#Kjd+j5r-5rj42#MK9j2KN5d9MKrU529#66O+9(6-N#+>M+K#Oj;-r5O2;K6j-2992jN+dNM-rj51;9}#Ojj+65NO9KMjK2d-#jr555j225-19+2#rj++MOK-dr;x!j6xjj6+-5d-2KK6d2j#MO5+jwk-OK9G2#N#+jK+K55##K!;O2j#6j-+552-K#dQ#5r#59;+6m6jjK26N2+rMjKdd5#KrKO#OK6#-j9+M;N-+r#qr2Or;jo+O5jN6KNH+2M;Kjd+#5r-OjjD62-#9+MtN5+-MKM+69-6j92jNd+;M2+2#+K#dj#+#666N2ju2KN;drMNr-+2j.trOr#96K-d+-2NK65##9ej#+B#55;-(Kp+NO+OMKr#5M;MLj-#;Fo#5d65N+9-2KKBN+5Nj#8-5}9;MFKMdj69KK56;j:J;Z,;O2j#6j6;Kdd0#Mr-##r95j;+a5h;K6j6N#++MjK+d5OM;r6N-96j-N9+25N-NK5-;M6NOO952N++6KN0+2M##rd+#Or-5KjJ62-#9-dON5+NMKr#52;;ZjOdj52%25+4M2K#d5#+rO5-j2j--29#2jrM+5MNKK->d9v#O9j+65--+#Mer#MM#jrO55j6xK-<922#9O++MOK-56;Az#O#j-+O-59N2KK5d2#;rj5d;568659}22N#dJM+KOd-;2;-O2j#6jKM952NNKOV+9r#59;+&5O-922zK#2MMjKOd5#NrKO8j26#jO9+2ON-d6#(r#5#;-9OO5jN6KK%+2M;Kjdd#5ytQ5jy62-#+j2+NO+-#2#-52;#VjNMj56N-Kd25-K#d9#+u65-;K6EK29r2jNd+5MNKK5+;22#-=j+6O--9rMRK#d##jrK55;rhK-H922#Nj++#-K-dr;x{;O#j+6+Nud92KK6d2;rrj5d;5mNOK9#9KN#+jM+Y;d-#rvZO2-N6j-d952NNKd}#26#KO;+_OO-jr2WN;+#Mjd+d5#rrKOfj26#-j9+;5N-+r#fr;5#;97+O5+96KN^+2M;Kjd+#5rN5Kj(62-#+62+N5+-#Br#52;#Wj6r-O+dMM+=M2K#dj#+r5+--N;_-#9K2jN++5+M;M6#5;jd2+NK+M2rKMM2K+d##jr+KN-O952rK#;9Nd++M-r#dK;Z>2YR-r9rM2r=d9#Krd#jrN5+;5W-2#K2d6#6N+9r2-dK;+gAO2j#;+M5KMdM#jb#O^;d6d-O{--MjK2sN2-;5M#5*MO6j-2#j#26-j9+252Mr55r;#V;-2;O22-N+2Mrrd59Kjd+#5r-5Kj862-#OjMjN5+-MK 26u;#_jO+jO6--K+y;2rrdj#+r55-;K6M-2+j25N++-M-r#5p;2R#Oj9565--9KM2K2dj#j2+OZ;-oK-,952#K6++j5v6dK;**2OKjj6N-5+K#MKcdM##r55+;5n-NK+_22N;+jMdK55M#K62K5j#6+-+9-2-NKdR;#1 5j;OF5OKjK2GN2dj;2K+dK#-Z)ORj26#-j+M25NN+K##r25j;j6+-5j-6KNz+OM#K9d+#5:j5Kjh62-;9j2+N5+-MKrB52;#s9O+j56-Nt+9M2K#djdKjM6r-9922KNd2ON++5M-KK66;2.#Ojj+65--9KMyrMd##9r+5O;-mK-H92MNNj+5M5K-dK; %2-#j96+-O9-2rKZd###rjO-;5:-OK9622N#+jMdK5d-#KfAOjj#6j-+9-MMNKdQ#2M-65--950MNMd#N#5;MjK+d5O#922#N2+9?P59;d#-KrOMjjqdO+962+d5+6MrKrjM;+rd-62Or-5Kj#MKN+;KM#rK#:r552;#Lj2#Nd9NM2rM5j;jrrOjj65Kj26{-29#+NMdr956rj5f;2I#-+9#65-N9KMMK2d##jz55O;-6}-s9j2#Nj++;5rOdK;2a2Ojjj6d-5+KMKKedj##r+5+;5W-OK9522Nj+jM-K5d-#Ky_-;j#69-+952-KWdi#26:5j;d?5ONjK26N2+#;6K+d5#-rrObj26#-99+25N-+K#2r25#;j45Orj-6KN0r2d;#rp5ONrKO;jU62-#O5+N#NzvOF;r6Oj6kjO+j52K#++YMMK#d9#+r55-;K9d-29j2jN++5M-KK5!6Ov#O9j+6---+6MiKjrG#jr+55j#>K-69225jx++MrK-5j;bxMO#jj6+-KN+2KKEd2#-rj5d;52-xM9R2+N#+OM+K-d-#K9dO2j56j-5952NNKdjd-r#59;+%KO-jr2)N#+#M5##d5#-rKO#j26;-j9+j4N-+r#*r25#;jq+O56N6KN6+2M#Kjd+#5r--djR62-#992+N5+-MrrG52;#AjOKj56--K+2M5K#dj#+#226-O96M<KM+rM-+-#MKK5J;2;#22-ddMM6rq5MK#dN#jr+55OMjr2-NN99#jKNdr;X5X;#A2O#jj9r2OKddMK2dN##rj5+5j9O26N6+K2#r2ddjMC6-I}2OOj#6j-+ONd#MrY25M;965ON9--MjK2kN2djrKK+dO#-J2OXj26#Kj+O25NN+K#6r25j;j2+Njj-6rNs+MM#KOd+j56(5Kj662-;9j2KN55-;;ry5M;#>9O+jO6-NKd5M2K;dj#Or55-;K6e-K9#2jN++OM-KK5L;MU#Ojj+65N(9KMbK2dj#-r+55;-+q2;NrdM#-KNM5K-dK;?Z2O#jja+Gd9KMMKkd2##j5,dO-9+2M9c22N#+jM+K5d-MKOr-+j#6j-+95d;NKd6#2r#5j;+Q5O-6K2_N#+#MjK+d5#-rK66j26;-j9525NK+K#j9-5#;9%+-rj-6rN,+2M#K5r##5r-5K9;62-;9j2+#M+-Mrrs5M;#<jO+j52K-K+6M2K;dj#+r5OKrN6Z-#9#2+N++5M-VPMr;2<9Ojj-65--9KM#2+d##9r+Or;-hr-(92+NNj+NM5KNdK;Y=2O#-O6+-r9-MMKpdj##r--d;566OK+#22N;+jM+K55%55%IO2j#25-+9O2-r0{5#2rd5j;O.5O-jK#:6#+#MOK+dr#-rrO{j22j-j9K25NN+K#8r25#;r/+-6j-22NG+2M#Kj5;#5R65Kj962-;9j2-Kd+-MKrbO9;#09O+jKdd-K+6M2KKdj#dr55-9d6n-29#29N++5M-Kr54;2T#Ojj-65--9KM2KOd##jr+L6-O+J2OK;d#M9KOdrKK5d;8b2O#5-+62rK+d22rr+d5;r%NN6BK-29022N#KNdd;9}6;UhNO2j#6jFOKrdK;Fr;Ogj+KdOd9926K0+6N9+#MjK+5--9rKO6j269-j9+25r-5+#}rM5#;9g+OOj-MKN2+2M;Kjdd#5P*5K9I6;-#992+N-+-MKr852j2pjO+j56N-K+4M2K;dj#+r55-j26m-29#2+K6+5M-KK69-69j26NO+52NK6d;K#52#jr+555M9MM#Oj+d#dKOdr;5E2O69,2+Nd65N99-2KKBN55N;N6y-j9;2;N+dj6Nr5dN;9dK;MBYO2j#+j2dKMdK;6dN#2r#5jj5#KO-jr2aNj+#MjK+5-;2rKO2j26;-j9+25r-56#Cr#5#;+y+O-j-6KN;+2MjKjdO#5r-5Kj}6K-#992+N5+-#6r%5jjMsjO+j52j-K+6M2K#rr#+>^5-;K6=-29##j6N+5#2KK5j;2 9Ojj+-5--+jM8K9d##jr+55+-UK-j922-Nj+dM5r2r+;eQMO#j-6+-O9-MBKndj5zrj5+;562OK9622N#56M+K5d-#r(&O2j#69-+952-NKdO#2r#5j;5VKO-jK2oMdK;5M#Nd-;jrKO)j2;jM+K6d6##e25K;969-d_5-,j-6KNf-;5M;2Y9O-2r5Kju62-#9j2+N59-9Nr255;#ZjO+Oj+;M;K+5j#Nm#5rr-Oj;K67-2OO+O#-NN56jJ6jOOj96Oj526--9KMa2MQ65+j6pr-5+2-29r2#Nj+++6;+HNO2jM2ROd+B2OKYdN;9_;#jrN5+;5,-2#K2d6#6N+9r2-d-#KUXO2j#6j-+NMj-K6d6;*r#5j;+6-25jK2EN2+;MjK+d5j-6dOGj26#-j9+M8N-5A;5r25j;jCNO5j-6KN4+#M#Kjd+#-r-OZj}#2-j9j2+N5+KMKr#52+#2vO+j56-Nj+0MNK#5+;sr55N;K6M-29#2jr+d5M-Kr5R;MJ#Orj+2-s#9KM2K2dK#jr+55jK2M->9;2#KP++M5K-O&jO!2O+jj22-59-2KKwdO##r95+;KR-->9PM2K6+jM+K55M#Ko6O2j#2d-+952-NrdB#2r#5j;+p5O-jKM2N2+#MjK5dK#-rKOyO29;M+K-2-K#+K#<r2KN-#9O2K-N+-MMK9MjKNd+#5r-6#N2+6M6-+jr6-+-MKrF52;#cjd+Nd;-N8+#M2K#djdj;O6d-M62-99#2jN+N95O;2_;OKBjO-j+65---6dr#KiMO+2O5-;rgK-E92jN#d-dM-r+dK;ni2)MNO+-MjK;d-#;N;OMj269--YK-99D22N#-K56;6?#O5jd6d--+5-5+N2-NKdid6jd65-#9M25NM9###K;5#;Op55N9s6;Nt99Mr95MMN-+K#!M+0N-29#rNNO+5Mrr#Mjrjd+#5r-r#-d9KMu-5d5MOr5O6j&,M-jjO2j-Nd;-KOMj;69-d9O2N9rdN62-;9#2jN+r+56j;5<;2p#Ojj+65--9KMnK2d##jr+55;-pK5.O62jN-++M5K-KKO69#6dN#+-r59-2KK{d25Nrj55;5n-OK9b22N56EM+K-d-;2LeOMj#6j-+9K++NKd4#2r+5j;dJ5-s-52aN2+#MOK+dO#-rK-Oj26#-j9d25N-+KjHM95#;+s+OOj-2jNzd#NMKjd-#5)25KjL62-#6O2+N-+-#2rc5#;#.-#2j56K-K+OM2K;dj#+r5OsO56I-29#M6N++OM-r2r-;2B#Oj9565-N9K;!29d##+r+5O;-6j-x+#-MNj+-M5KNdK;{G2O#RO6+--9-M2Ktd###r-M2;5^KOK+622N;+jM+K55/55ntO2j#29-+9O2-K2K-#2r#5jj5I5ONjK2xKN+#MjK+dO#-rKO,j29N-j9525NN+K#ar2-#jjP+ONj-6rN0+9M#KjrN#5rK5Kj262-99j2K#N+-#/rQO5;#.9O+jO6-N2N-M2K#djjYr55N;K6VNN9#2jN++OM-KK5Aj#9KOjj565-K9KM>K2O#+6r+5-;-6 -H+62#K+5MM5KrdK;5Y2O#jj6+NV9-McKgd###r+5++52;OK9222K6+j#jK5--jdS:O#j#26-++O2-r<5+#2r95j;r*5O-jK#IKO+#MdK+dN#-p6OF9#OM-j9-25KT+K#&r2Ojj5:+Orj-2KNm+2M#r+dN#5b25K9g62-#9j2+Kr+-#6ri5+;#y+O+956K-K+2M2r%dj#Or5OK9h6z-;9#2NN++5M-1KOj;2z9OjjO65-r9K#2KMd##5r+O5;-LK-P+#-MNj+NM5r-dK;Lc2-j296+N19-MKK1d2##rjOe;5mrOK9j22Nj+j#+r6d-;>1,OOj#6d-++5MMNKd2#2Rj5j;dW5O-992JN;+#M+K+d5#-rK-jj269-j9d25NK+K#^r#5#;jy+OOj-6KNG+#M#Kjd+#5");local d=h.gaELcEVv;h.iOeOcKxn(function()h.MqkIXufP()d=d+h.CMxb_YhM end)local function e(n,e)if e then return d end;d=n+d;end local n,d,s=f(h.gaELcEVv,f,e,c,h.Jxrwhhxc);local function t()local n,d=h.Jxrwhhxc(c,e(h.CMxb_YhM,h.rAKdthcb),e(h.azvjwdQb,h.iMyWecyx)+h.lOmxnyPS);e(h.lOmxnyPS);return(d*h.VerbAezd)+n;end;local b=true;local b=h.gaELcEVv local function _()local r=d();local e=d();local j=h.CMxb_YhM;local r=(n(e,h.CMxb_YhM,h.fiskXfqi)*(h.lOmxnyPS^h.yZEuHQPH))+r;local d=n(e,h.wflTqSmJ,h.xBYmRWub);local e=((-h.CMxb_YhM)^n(e,h.yZEuHQPH));if(d==h.gaELcEVv)then if(r==b)then return e*h.gaELcEVv;else d=h.CMxb_YhM;j=h.gaELcEVv;end;elseif(d==h.nxRBvTCV)then return(r==h.gaELcEVv)and(e*(h.CMxb_YhM/h.gaELcEVv))or(e*(h.gaELcEVv/h.gaELcEVv));end;return h.IRbufvfx(e,d-h.uEUBiOIk)*(j+(r/(h.lOmxnyPS^h.JHcveLPe)));end;local k=d;local function p(d)local n;if(not d)then d=k();if(d==h.gaELcEVv)then return'';end;end;n=h.GtDuXaRZ(c,e(h.CMxb_YhM,h.rAKdthcb),e(h.azvjwdQb,h.iMyWecyx)+d-h.CMxb_YhM);e(d)local e=""for d=(h.CMxb_YhM+b),#n do e=e..h.GtDuXaRZ(n,d,d)end return e;end;local k=#h.HUZcecES(a('\49.\48'))~=h.CMxb_YhM local e=d;local function ne(...)return{...},h.fCfokrdk('#',...)end local function de()local b={};local e={};local c={};local a={c,b,nil,e};local e=d()local f={}for r=h.CMxb_YhM,e do local n=s();local d;if(n==h.rAKdthcb)then d=(s()~=#{});elseif(n==h.gaELcEVv)then local e=_();if k and h.xIodOWGP(h.HUZcecES(e),'.(\48+)$')then e=h.POVqGxnX(e);end d=e;elseif(n==h.lOmxnyPS)then d=p();end;f[r]=d;end;for a=h.CMxb_YhM,d()do local e=s();if(n(e,h.CMxb_YhM,h.CMxb_YhM)==h.gaELcEVv)then local o=n(e,h.lOmxnyPS,h.rAKdthcb);local s=n(e,h.zpTFAMoc,h.iMyWecyx);local e={t(),t(),nil,nil};if(o==h.gaELcEVv)then e[j]=t();e[l]=t();elseif(o==#{h.CMxb_YhM})then e[j]=d();elseif(o==u[h.lOmxnyPS])then e[j]=d()-(h.lOmxnyPS^h.ibxQgSOJ)elseif(o==u[h.rAKdthcb])then e[j]=d()-(h.lOmxnyPS^h.ibxQgSOJ)e[l]=t();end;if(n(s,h.CMxb_YhM,h.CMxb_YhM)==h.CMxb_YhM)then e[r]=f[e[r]]end if(n(s,h.lOmxnyPS,h.lOmxnyPS)==h.CMxb_YhM)then e[j]=f[e[j]]end if(n(s,h.rAKdthcb,h.rAKdthcb)==h.CMxb_YhM)then e[l]=f[e[l]]end c[a]=e;end end;a[h.rAKdthcb]=s();for e=h.CMxb_YhM,d()do b[e-(#{h.CMxb_YhM})]=de();end;return a;end;local function re(n,d,e)local r=d;local r=e;return a(h.xIodOWGP(h.xIodOWGP(({h.iOeOcKxn(n)})[h.lOmxnyPS],d),e))end local function p(g,c,s)local function re(...)local t,_,u,de,b,d,a,ee,z,m,k,n;local e=h.gaELcEVv;while-h.CMxb_YhM<e do if e>h.lOmxnyPS then if e>=h.azvjwdQb then if e>h.lOmxnyPS then for d=h.DsRDdcPp,h.HGDdthtY do if e<h.iMyWecyx then n=f(h.yvyHjkjt);break;end;e=-h.lOmxnyPS;break;end;else e=-h.lOmxnyPS;end else if e>=-h.CMxb_YhM then repeat if e<h.zpTFAMoc then ee={};z={...};break;end;m=h.fCfokrdk('#',...)-h.CMxb_YhM;k={};until true;else m=h.fCfokrdk('#',...)-h.CMxb_YhM;k={};end end else if h.CMxb_YhM>e then t=f(h.iMyWecyx,h.hqPMAScx,h.CMxb_YhM,h.ibxQgSOJ,g);_=f(h.iMyWecyx,h.HGDdthtY,h.lOmxnyPS,h.DrOWtJdH,g);else if e~=h.gaELcEVv then repeat if h.CMxb_YhM~=e then d=-h.YSixrJZZ;a=-h.CMxb_YhM;break;end;u=f(h.iMyWecyx,h.mGZOmYG_,h.rAKdthcb,h.oOKfFYQs,g);b=ne de=h.gaELcEVv;until true;else u=f(h.iMyWecyx,h.mGZOmYG_,h.rAKdthcb,h.oOKfFYQs,g);b=ne de=h.gaELcEVv;end end end e=e+h.CMxb_YhM;end;for e=h.gaELcEVv,m do if(e>=u)then ee[e-u]=z[e+h.CMxb_YhM];else n[e]=z[e+h.CMxb_YhM];end;end;local e=m-u+h.CMxb_YhM local e;local f;local function u(...)while true do end end while true do if d<-h.vCEARUcX then d=d+h.ZqgXChZO end e=t[d];f=e[y];if h.MClxEMtg<=f then if h.jnAxmHtW<f then if f>h.ibAGmIwG then if f<=h.geVVkfRv then if h.AEKqZksT<=f then if 184>=f then if 183>f then n[e[r]]=p(_[e[j]],nil,s);else if 183<f then local d=e[r];local r=n[d];for e=d+1,e[j]do h.EzmUsEUA(r,n[e])end;else local h;for f=0,6 do if 3>f then if f>0 then if-1~=f then repeat if f<2 then h=e[r]n[h]=n[h](o(n,h+1,e[j]))d=d+1;e=t[d];break;end;n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];until true;else h=e[r]n[h]=n[h](o(n,h+1,e[j]))d=d+1;e=t[d];end else n(e[r],e[j]);d=d+1;e=t[d];end else if 4<f then if f>=3 then repeat if f<6 then n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];break;end;n[e[r]]=s[e[j]];until true;else n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];end else if f>=-1 then repeat if f~=3 then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n[e[r]][e[j]]=e[l];d=d+1;e=t[d];until true;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end end end end end end else if f<187 then if f~=184 then for s=36,79 do if 185~=f then local h;for f=0,4 do if 2>f then if f~=0 then n[e[r]]=c[e[j]];d=d+1;e=t[d];else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end else if 2<f then if 2<f then for l=44,68 do if 4>f then h=e[r]n[h]=n[h](o(n,h+1,e[j]))d=d+1;e=t[d];break;end;if not n[e[r]]then d=d+1;else d=e[j];end;break;end;else if not n[e[r]]then d=d+1;else d=e[j];end;end else n[e[r]]=n[e[j]];d=d+1;e=t[d];end end end break;end;local l,o;for f=0,2 do if f<=0 then n[e[r]]={};d=d+1;e=t[d];else if 1<f then l=e[r];o=n[l];for e=l+1,e[j]do h.EzmUsEUA(o,n[e])end;else n(e[r],e[j]);d=d+1;e=t[d];end end end break;end;else local l,o;for f=0,2 do if f<=0 then n[e[r]]={};d=d+1;e=t[d];else if 1<f then l=e[r];o=n[l];for e=l+1,e[j]do h.EzmUsEUA(o,n[e])end;else n(e[r],e[j]);d=d+1;e=t[d];end end end end else if f~=188 then n[e[r]]=s[e[j]];else local d=e[r];local r=n[d];for e=d+1,e[j]do h.EzmUsEUA(r,n[e])end;end end end else if f<179 then if f>176 then if f>=175 then repeat if f~=178 then c[e[j]]=n[e[r]];break;end;for l=0,6 do if 3<=l then if 4>=l then if l~=4 then n(e[r],e[j]);d=d+1;e=t[d];else n(e[r],e[j]);d=d+1;e=t[d];end else if l>3 then repeat if 5~=l then n(e[r],e[j]);break;end;n(e[r],e[j]);d=d+1;e=t[d];until true;else n(e[r],e[j]);d=d+1;e=t[d];end end else if l<1 then n(e[r],e[j]);d=d+1;e=t[d];else if-2~=l then for f=47,68 do if l>1 then n(e[r],e[j]);d=d+1;e=t[d];break;end;n(e[r],e[j]);d=d+1;e=t[d];break;end;else n(e[r],e[j]);d=d+1;e=t[d];end end end end until true;else c[e[j]]=n[e[r]];end else local t,o,l,f,h,s;local d=0;while d>-1 do if d>=4 then if 6<=d then if 5<=d then for e=22,65 do if d~=7 then n[s]=h;break;end;d=-2;break;end;else d=-2;end else if 2<d then repeat if d~=4 then s=t[o];break;end;h=f[t[l]];until true;else h=f[t[l]];end end else if d<=1 then if 0==d then t=e;else o=r;end else if d>=1 then for e=14,78 do if d<3 then l=j;break;end;f=n;break;end;else l=j;end end end d=d+1 end end else if 180<=f then if f<181 then local h,a,c,k,u,b,_,f;for f=0,6 do if f<=2 then if 0<f then if 0~=f then repeat if 2>f then n[e[r]]=s[e[j]];d=d+1;e=t[d];break;end;h=e[r];a=n[e[j]];n[h+1]=a;n[h]=a[e[l]];d=d+1;e=t[d];until true;else h=e[r];a=n[e[j]];n[h+1]=a;n[h]=a[e[l]];d=d+1;e=t[d];end else h=e[r]n[h](o(n,h+1,e[j]))d=d+1;e=t[d];end else if 5>f then if 3==f then f=0;while f>-1 do if f<=2 then if f<1 then c=e;else if f>=-3 then for e=36,77 do if 1~=f then u=j;break;end;k=r;break;end;else k=r;end end else if 4>=f then if 2<f then for e=24,92 do if 4~=f then b=c[u];break;end;_=c[k];break;end;else b=c[u];end else if f>4 then repeat if f<6 then n(_,b);break;end;f=-2;until true;else f=-2;end end end f=f+1 end d=d+1;e=t[d];else h=e[r]n[h]=n[h](o(n,h+1,e[j]))d=d+1;e=t[d];end else if f>3 then for o=42,52 do if f>5 then h=e[r];a=n[e[j]];n[h+1]=a;n[h]=a[e[l]];break;end;n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end end end end else if(n[e[r]]<=n[e[l]])then d=d+1;else d=e[j];end;end else if(n[e[r]]<n[e[l]])then d=e[j];else d=d+1;end;end end end else if 194<f then if 198<=f then if 199>=f then if 196<f then repeat if f>198 then do return n[e[r]]end break;end;local a=_[e[j]];local o;local f={};o=h.TjIyCfaC({},{__index=function(d,e)local e=f[e];return e[1][e[2]];end,__newindex=function(n,e,d)local e=f[e]e[1][e[2]]=d;end;});for r=1,e[l]do d=d+1;local e=t[d];if e[y]==2 then f[r-1]={n,e[j]};else f[r-1]={c,e[j]};end;k[#k+1]=f;end;n[e[r]]=p(a,o,s);until true;else do return n[e[r]]end end else if 196<f then for h=49,96 do if 201>f then n[e[r]]=s[e[j]];d=d+1;e=t[d];n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];do return end;break;end;local r=e[r]local j={n[r](n[r+1])};local d=0;for e=r,e[l]do d=d+1;n[e]=j[d];end break;end;else local d=e[r]local j={n[d](n[d+1])};local r=0;for e=d,e[l]do r=r+1;n[e]=j[r];end end end else if 195>=f then local t=n[e[l]];if t then d=d+1;else n[e[r]]=t;d=e[j];end;else if f~=194 then for o=14,63 do if 196<f then n[e[r]][e[j]]=n[e[l]];break;end;local f,o,a;for s=0,3 do if 2>s then if s~=-4 then repeat if 0~=s then n[e[r]]={};d=d+1;e=t[d];break;end;f=e[r];o=n[e[j]];n[f+1]=o;n[f]=o[e[l]];d=d+1;e=t[d];until true;else f=e[r];o=n[e[j]];n[f+1]=o;n[f]=o[e[l]];d=d+1;e=t[d];end else if-1<=s then for l=29,55 do if 2<s then f=e[r];a=n[f];for e=f+1,e[j]do h.EzmUsEUA(a,n[e])end;break;end;n(e[r],e[j]);d=d+1;e=t[d];break;end;else f=e[r];a=n[f];for e=f+1,e[j]do h.EzmUsEUA(a,n[e])end;end end end break;end;else n[e[r]][e[j]]=n[e[l]];end end end else if 191<f then if 193>f then local f,c,k,_,u;for h=0,6 do if h<3 then if 1>h then n[e[r]]=s[e[j]];d=d+1;e=t[d];else if h~=-2 then for o=40,73 do if h~=2 then n[e[r]]=s[e[j]];d=d+1;e=t[d];break;end;f=e[r];c=n[e[j]];n[f+1]=c;n[f]=c[e[l]];d=d+1;e=t[d];break;end;else f=e[r];c=n[e[j]];n[f+1]=c;n[f]=c[e[l]];d=d+1;e=t[d];end end else if h<=4 then if 4~=h then n(e[r],e[j]);d=d+1;e=t[d];else f=e[r]k,_=b(n[f](o(n,f+1,e[j])))a=_+f-1 u=0;for e=f,a do u=u+1;n[e]=k[u];end;d=d+1;e=t[d];end else if h>2 then for j=33,80 do if h~=6 then f=e[r]n[f]=n[f](o(n,f+1,a))d=d+1;e=t[d];break;end;n[e[r]]();break;end;else n[e[r]]();end end end end else if f~=190 then repeat if f~=193 then if(n[e[r]]<n[e[l]])then d=e[j];else d=d+1;end;break;end;local f;n(e[r],e[j]);d=d+1;e=t[d];f=e[r]n[f]=n[f](o(n,f+1,e[j]))d=d+1;e=t[d];n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];n[e[r]][e[j]]=n[e[l]];d=d+1;e=t[d];n[e[r]]=c[e[j]];d=d+1;e=t[d];n[e[r]][n[e[j]]]=n[e[l]];d=d+1;e=t[d];do return end;until true;else if(n[e[r]]<n[e[l]])then d=e[j];else d=d+1;end;end end else if f>=190 then if 189<=f then for h=32,81 do if f>190 then local h,o;for f=0,6 do if f>=3 then if 5>f then if 2<=f then repeat if 4~=f then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n[e[r]]=c[e[j]];d=d+1;e=t[d];until true;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end else if 2~=f then repeat if f<6 then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n[e[r]]=n[e[j]][e[l]];until true;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end end else if f<1 then h=e[r];o=n[e[j]];n[h+1]=o;n[h]=o[e[l]];d=d+1;e=t[d];else if-2<f then for h=31,89 do if 1~=f then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n[e[r]]=c[e[j]];d=d+1;e=t[d];break;end;else n[e[r]]=c[e[j]];d=d+1;e=t[d];end end end end break;end;local f;for h=0,6 do if h<=2 then if h>0 then if-3<=h then for l=47,55 do if h~=2 then f=e[r]n[f]=n[f](o(n,f+1,e[j]))d=d+1;e=t[d];break;end;n[e[r]]=s[e[j]];d=d+1;e=t[d];break;end;else f=e[r]n[f]=n[f](o(n,f+1,e[j]))d=d+1;e=t[d];end else n(e[r],e[j]);d=d+1;e=t[d];end else if 5>h then if 0<=h then repeat if h~=4 then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n(e[r],e[j]);d=d+1;e=t[d];until true;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end else if h>4 then for l=23,80 do if 5~=h then f=e[r]n[f]=n[f](o(n,f+1,e[j]))break;end;n(e[r],e[j]);d=d+1;e=t[d];break;end;else n(e[r],e[j]);d=d+1;e=t[d];end end end end break;end;else local f;for h=0,6 do if h<=2 then if h>0 then if-3<=h then for l=47,55 do if h~=2 then f=e[r]n[f]=n[f](o(n,f+1,e[j]))d=d+1;e=t[d];break;end;n[e[r]]=s[e[j]];d=d+1;e=t[d];break;end;else f=e[r]n[f]=n[f](o(n,f+1,e[j]))d=d+1;e=t[d];end else n(e[r],e[j]);d=d+1;e=t[d];end else if 5>h then if 0<=h then repeat if h~=4 then n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];break;end;n(e[r],e[j]);d=d+1;e=t[d];until true;else n[e[r]]=n[e[j]][e[l]];d=d+1;e=t[d];end else if h>4 then for l=23,80 do if 5~=h then f=e[r]n[f]=n[f](o(n,f+1,e[j]))break;end;n(e[r],e[j]);d=d+1;e=t[d];break;end;else n(e[r],e[j]);d=d+1;e=t[d];end end end end end else local r=e[r]local j={n[r](n[r+1])};local d=0;for e=r,e[l]do d=d+1;n[e]=j[d];end end end end end else if f<=162 then if 157<=f then if 160<=f then if f<=160 then n[e[r]]=(e[j]~=0);else if 159<f then for d=13,57 do if f~=162 then local e=e[r]n[e]=n[e](n[e+1])break;end;n[e[r]][e[j]]=n[e[l]];break;end;else local e=e[r]n[e]=n[e](n[e+1])end end else if 158<=f then if 156<f then for d=27,72 do if f>158 then local t,h,l,f,o;local d=0;while d>-1 do if 3>d then if 0>=d then t=e;else if 1==d then h=r;else l=j;end end else if 4<d then if d>=3 then repeat if d~=6 then n(o,f);break;end;d=-2;until true;else d=-2;end else if d~=-1 then repeat if 3<d then o=t[h];break;end;f=t[l];until true;else f=t[l];end end end d=d+1 end break;end;s[e[j]]=n[e[r]];break;end;else local t,h,l,f,o;local d=0;while d>-1 do if 3>d then if 0>=d then t=e;else if 1==d then h=r;else l=j;end end else if 4<d then if d>=3 then repeat if d~=6 then n(o,f);break;end;d=-2;until true;else d=-2;end else if d~=-1 then repeat if 3<d then o=t[h];break;end;f=t[l];until true;else f=t[
+--// DIVINE FINDER EGG [STEAL AN EGG] - NETWORK EDITION v2.1
+--// BY DEV AXL
+--// REAL GOOGLE TRANSLATE (AR / EN / KU) | SERVER CARDS FROM SUPABASE | REAL JOIN
+--// iOS LIQUID GLASS UI | MOBILE + PC
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local SoundService = game:GetService("SoundService")
+local HttpService = game:GetService("HttpService")
+local TeleportService = game:GetService("TeleportService")
+local RepStorage = game:GetService("ReplicatedStorage")
+
+local Player = Players.LocalPlayer
+
+--==================================================
+-- CONFIG
+--==================================================
+
+local TITLE = "DIVINE FINDER EGG [STEAL AN EGG]"
+local SUBTITLE = "BY DEV AXL"
+
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1549905157179973682/lMphfVLPMQGZZeyzUG02YXAs1mnZtFX8TIxQ_qm0c811R-mK7o6l9thA1xQrrXFA0evC"
+local SUPABASE_URL = "https://ewvzzvnjvrlagdzwsgwy.supabase.co"
+local SUPABASE_KEY = "sb_publishable_exf6hLaO1DlI27n8MfCIvA_3KSB3zWK"
+local UPDATE_INTERVAL = 20
+local MAX_SERVERS = 50
+
+local SCRIPT_SOURCE = [[
+loadstring(game:HttpGet("YOUR_RAW_SCRIPT_URL"))()
+]]
+
+local RARITY_ORDER = {
+	Common=1, Uncommon=2, Rare=3, Epic=4, Legendary=5,
+	Mythic=6, Cosmic=7, Secret=8, Eternal=9, Divine=10
+}
+local RARITY_COLORS = {
+	Common=Color3.fromRGB(190,200,215), Uncommon=Color3.fromRGB(110,195,255),
+	Rare=Color3.fromRGB(85,170,255), Epic=Color3.fromRGB(170,85,255),
+	Legendary=Color3.fromRGB(255,190,80), Mythic=Color3.fromRGB(255,70,70),
+	Cosmic=Color3.fromRGB(255,120,255), Secret=Color3.fromRGB(255,50,150),
+	Eternal=Color3.fromRGB(0,255,200), Divine=Color3.fromRGB(255,215,0)
+}
+
+local ICONS = {
+	ANGEL = "rbxassetid://4345190825",
+	EGG = "rbxassetid://17079629909",
+	FILTER = "rbxassetid://127110909372919",
+	SETTINGS = "rbxassetid://18514849542",
+	MINIMIZE = "rbxassetid://17293879614",
+	CLOSE = "rbxassetid://112754487055583"
+}
+
+local POP_SOUND = "rbxasset://sounds/electronicpingshort.wav"
+
+--==================================================
+-- HTTP LAYER
+--==================================================
+
+local HTTP = (http_request or request or (syn and syn.request) or (http and http.request))
+local HttpEnabled = pcall(function() HttpService:GetAsync("https://google.com") end) or HTTP ~= nil
+
+local function httpRequest(opts)
+	if HTTP then
+		local ok, res = pcall(HTTP, opts)
+		if ok then return res end
+	else
+		if opts.Method == "POST" then
+			local ok, res = pcall(HttpService.PostAsync, HttpService, opts.Url, opts.Body)
+			if ok then return {Success=true, Body=res} end
+		else
+			local ok, res = pcall(HttpService.GetAsync, HttpService, opts.Url)
+			if ok then return {Success=true, Body=res} end
+		end
+	end
+	return nil
+end
+
+--==================================================
+-- REAL GOOGLE TRANSLATE (AR / EN / KU) — live + cached
+--==================================================
+
+local Lang = "AR"
+local TransCache = {}
+
+-- fallbacks جاهزة لو فشل الاتصال بالترجمة
+local FALLBACKS = {
+	AR = {
+		EGG_FINDER="باحث البيض", FILTER="فلتر", SETTINGS="الإعدادات", CREDITS="الحسابات",
+		REFRESH="تحديث", JOIN="دخول", WAITING="جاري جلب السيرفرات من الشبكة...",
+		NO_SERVERS="لا يوجد سيرفرات", SERVER="سيرفر", PLAYERS="لاعبين",
+		MIN_RARITY="أقل ندرة", ALL="الكل", LANGUAGE="اللغة",
+		CREDITS_TITLE="حسابات المطور", CLOSE_MSG="هذه الواجهة ستُغلق",
+		CLOSE_Q="هل أنت متأكد أنك تريد المتابعة؟", YES="نعم", NO="لا",
+		AUTO_RELAY="الشبكة التلقائية", ENABLED="مفعل", DISABLED="معطل",
+		FOUND="تم العثور", JOINING="جاري الدخول..."
+	},
+	KU = {
+		EGG_FINDER="گەڕەری هێلکە", FILTER="فلتەر", SETTINGS="ڕێکخستن", CREDITS="کرێدیت",
+		REFRESH="نوێکردنەوە", JOIN="چوونەژوورەوە", WAITING="چاوەڕوانی سێرڤەرەکان...",
+		NO_SERVERS="هیچ سێرڤەر نەدۆزرایەوە", SERVER="سێرڤەر", PLAYERS="یاریکەر",
+		MIN_RARITY="کەمترین دەرڕیتی", ALL="هەموو", LANGUAGE="زمان",
+		CREDITS_TITLE="کرێدیتی گەشەپێدەر", CLOSE_MSG="ئەم ڕووکارە دە dadەخریت",
+		CLOSE_Q="دڵنیایت لە بەردەوامبوون؟", YES="بەڵێ", NO="نەخێر",
+		AUTO_RELAY="تۆڕی خۆکار", ENABLED="چالاک", DISABLED="ناچالاک",
+		FOUND="دۆزرایەوە", JOINING="چوونەژوورەوە..."
+	}
+}
+
+local function RealTranslate(text, target)
+	if target == "en" then return text end
+	local key = target .. "|" .. text
+	if TransCache[key] then return TransCache[key] end
+
+	local url = "https://translate.googleapis.com/translate_a/single"
+		.. "?client=gtx&sl=auto&tl=" .. target .. "&dt=t&q=" .. HttpService:UrlEncode(text)
+
+	local res = httpRequest({Url = url, Method = "GET"})
+	if res and res.Success and res.Body then
+		local ok, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
+		if ok and type(data) == "table" and data[1] then
+			local out = {}
+			for _, seg in ipairs(data[1]) do
+				if type(seg) == "table" and seg[1] then table.insert(out, tostring(seg[1])) end
+			end
+			local result = table.concat(out, "")
+			if result ~= "" then
+				TransCache[key] = result
+				return result
+			end
+		end
+	end
+	return text
+end
+
+-- UI strings (source: English)
+local STRINGS = {
+	EGG_FINDER = "EGG FINDER", FILTER = "FILTER", SETTINGS = "SETTINGS", CREDITS = "CREDITS",
+	REFRESH = "REFRESH", JOIN = "JOIN", WAITING = "Fetching servers from network...",
+	NO_SERVERS = "No servers found", SERVER = "SERVER", EGGS = "EGGS", RARITY = "RARITY",
+	PLAYERS = "PLAYERS", MIN_RARITY = "Minimum Rarity", ALL = "ALL", LANGUAGE = "Language",
+	CREDITS_TITLE = "DEVELOPER CREDITS", CLOSE_MSG = "This interface will close",
+	CLOSE_Q = "Are you sure you want to continue?", YES = "Yes", NO = "No",
+	AUTO_RELAY = "Auto Network Relay", ENABLED = "ENABLED", DISABLED = "DISABLED",
+	FOUND = "FOUND", JOINING = "JOINING...", UPDATED = "Updated", AREA = "AREA"
+}
+
+-- 3 لغات فقط: عربي / إنكليزي / كوردي
+local LangMap = {AR="ar", EN="en", KU="ku"}
+local LANG_NAMES = {AR="العربية", EN="English", KU="کوردی"}
+local LTEXT = {}
+for k, v in pairs(STRINGS) do LTEXT[k] = v end
+
+local function L(key) return LTEXT[key] or STRINGS[key] or key end
+
+local function TranslateAll()
+	local target = LangMap[Lang] or "en"
+	for key, text in pairs(STRINGS) do
+		task.spawn(function()
+			local t = RealTranslate(text, target)
+			if t == text and FALLBACKS[Lang] and FALLBACKS[Lang][key] then
+				t = FALLBACKS[Lang][key]
+			end
+			LTEXT[key] = t
+		end)
+	end
+end
+
+--==================================================
+-- GAME DATA COLLECTION
+--==================================================
+
+local function getModule2(name)
+	for _, d in ipairs(RepStorage:GetDescendants()) do
+		if d:IsA("ModuleScript") and d.Name == name then
+			local ok, mod = pcall(require, d)
+			if ok then return mod end
+		end
+	end
+	return nil
+end
+
+local AssetsData = getModule2("Assets")
+local EggStateModule = getModule2("EggState")
+
+local function resolveRarity(category)
+	if AssetsData and AssetsData.Directory and AssetsData.Directory[category] then
+		local entry = AssetsData.Directory[category]
+		local r = entry and entry.Rarity
+		if type(r) == "table" then return tostring(r._id or r.DisplayName) end
+		if type(r) == "string" then return r end
+	end
+	return "Common"
+end
+
+local function getAssetName(category)
+	if AssetsData and AssetsData.Directory and AssetsData.Directory[category] then
+		local entry = AssetsData.Directory[category]
+		if entry and entry.DisplayName then return tostring(entry.DisplayName) end
+	end
+	return tostring(category or "Unknown")
+end
+
+local function collectLocalEggs()
+	local list = {}
+	if EggStateModule and type(EggStateModule.ReadFieldEggs) == "function" then
+		local ok, snap = pcall(EggStateModule.ReadFieldEggs)
+		if ok and snap and snap.Records then
+			for _, rec in pairs(snap.Records) do
+				local cat = rec.AssetCategory or "Unknown"
+				table.insert(list, {
+					name = getAssetName(cat),
+					rarity = resolveRarity(cat),
+					area = tostring(rec.AreaId or "Map")
+				})
+			end
+		end
+	end
+	return list
+end
+
+local function bestRarity(eggs)
+	local best, bestRank = "Common", 0
+	for _, e in ipairs(eggs) do
+		local rk = RARITY_ORDER[e.rarity] or 1
+		if rk > bestRank then best, bestRank = e.rarity, rk end
+	end
+	return best
+end
+
+--==================================================
+-- RELAY: WEBHOOK -> SUPABASE (every 20s)
+--==================================================
+
+local AutoRelay = true
+
+local function buildEggDescription(eggs)
+	local lines = {}
+	for _, e in ipairs(eggs) do
+		table.insert(lines, string.format("• **%s** | %s | %s: %s", e.name, e.rarity, "AREA", e.area))
+	end
+	return table.concat(lines, "\n")
+end
+
+local function sendWebhook(eggs, playerCount)
+	if not HttpEnabled then return end
+	local br = bestRarity(eggs)
+	local colorVal = 0xFFD700
+	local c = RARITY_COLORS[br]
+	if c then
+		colorVal = math.floor(c.R*255)*65536 + math.floor(c.G*255)*256 + math.floor(c.B*255)
+	end
+	local payload = HttpService:JSONEncode({
+		username = "DIVINE FINDER RELAY",
+		embeds = {{
+			title = "🥚 " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. " | SERVER",
+			description = "**JobID:** `" .. (game.JobId ~= "" and game.JobId or "LOCAL") .. "`" ..
+				"\n**PlaceID:** " .. game.PlaceId ..
+				"\n**Players:** " .. playerCount .. "/" .. Players.MaxPlayers ..
+				"\n**Best Rarity:** " .. br ..
+				"\n**Eggs Found:** " .. #eggs .. "\n" ..
+				(buildEggDescription(eggs) ~= "" and buildEggDescription(eggs) or "-"),
+			color = colorVal,
+			footer = {text = "DIVINE FINDER EGG • BY DEV AXL • " .. os.date("!%Y-%m-%d %H:%M:%S UTC")}
+		}}
+	})
+	httpRequest({
+		Url = WEBHOOK_URL, Method = "POST",
+		Headers = {["Content-Type"]="application/json"}, Body = payload
+	})
+end
+
+local function pushToSupabase(eggs, playerCount)
+	if not HttpEnabled then return end
+	local body = HttpService:JSONEncode({
+		jobid = game.JobId ~= "" and game.JobId or (tostring(Player.UserId) .. "_local"),
+		place_id = game.PlaceId,
+		players = playerCount,
+		max_players = Players.MaxPlayers,
+		eggs = HttpService:JSONEncode(eggs),
+		best_rarity = bestRarity(eggs),
+		updated_at = os.date("!%Y-%m-%dT%H:%M:%SZ")
+	})
+	httpRequest({
+		Url = SUPABASE_URL .. "/rest/v1/servers?on_conflict=jobid",
+		Method = "POST",
+		Headers = {
+			["Content-Type"]="application/json",
+			["apikey"]=SUPABASE_KEY,
+			["Authorization"]="Bearer "..SUPABASE_KEY,
+			["Prefer"]="resolution=merge-duplicates"
+		},
+		Body = body
+	})
+end
+
+local function fetchServers()
+	if not HttpEnabled then return {} end
+	local res = httpRequest({
+		Url = SUPABASE_URL .. "/rest/v1/servers?order=updated_at.desc&limit=" .. MAX_SERVERS,
+		Method = "GET",
+		Headers = {["apikey"]=SUPABASE_KEY, ["Authorization"]="Bearer "..SUPABASE_KEY}
+	})
+	if res and res.Success and res.Body then
+		local ok, data = pcall(HttpService.JSONDecode, HttpService, res.Body)
+		if ok and type(data) == "table" then return data end
+	end
+	return {}
+end
+
+task.spawn(function()
+	while true do
+		if AutoRelay and HttpEnabled then
+			local eggs = collectLocalEggs()
+			local pc = #Players:GetPlayers()
+			sendWebhook(eggs, pc)
+			pushToSupabase(eggs, pc)
+		end
+		task.wait(UPDATE_INTERVAL)
+	end
+end)
+
+--==================================================
+-- UI CORE
+--==================================================
+
+local function Tween(obj, time, props, style, direction)
+	return TweenService:Create(obj, TweenInfo.new(time, style or Enum.EasingStyle.Quint, direction or Enum.EasingDirection.Out), props):Play()
+end
+
+local function Pop()
+	local s = Instance.new("Sound")
+	s.SoundId = POP_SOUND; s.Volume = .32; s.PlaybackSpeed = 1.15
+	s.Parent = SoundService; s:Play()
+	s.Ended:Connect(function() s:Destroy() end)
+end
+
+local Gui = Instance.new("ScreenGui")
+Gui.Name = "DIVINE_FINDER_EGG"; Gui.ResetOnSpawn = false; Gui.IgnoreGuiInset = true
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Gui.Parent = Player:WaitForChild("PlayerGui")
+
+local Main = Instance.new("Frame")
+Main.Size = UDim2.fromOffset(600,430); Main.Position = UDim2.fromScale(.5,.5)
+Main.AnchorPoint = Vector2.new(.5,.5); Main.BackgroundColor3 = Color3.fromRGB(8,8,10)
+Main.BackgroundTransparency = .08; Main.BorderSizePixel = 0; Main.Parent = Gui
+Instance.new("UICorner", Main).CornerRadius = UDim.new(0,24)
+local MainStroke = Instance.new("UIStroke")
+MainStroke.Color = Color3.fromRGB(150,150,160); MainStroke.Transparency = .72; MainStroke.Parent = Main
+
+local Title = Instance.new("TextLabel")
+Title.Size = UDim2.new(1,-150,0,20); Title.Position = UDim2.fromOffset(60,14)
+Title.BackgroundTransparency = 1; Title.Text = TITLE
+Title.TextColor3 = Color3.fromRGB(248,248,250); Title.TextSize = 15
+Title.Font = Enum.Font.GothamBold; Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.ZIndex = 5; Title.Parent = Main
+
+local DevTag = Instance.new("TextLabel")
+DevTag.Size = UDim2.new(1,-150,0,14); DevTag.Position = UDim2.fromOffset(61,35)
+DevTag.BackgroundTransparency = 1; DevTag.Text = SUBTITLE
+DevTag.TextColor3 = Color3.fromRGB(160,160,255); DevTag.TextSize = 9
+DevTag.Font = Enum.Font.GothamBold; DevTag.TextXAlignment = Enum.TextXAlignment.Left
+DevTag.ZIndex = 5; DevTag.Parent = Main
+
+local function TopButton(name, icon, x)
+	local b = Instance.new("ImageButton")
+	b.Size = UDim2.fromOffset(34,34); b.Position = UDim2.new(1,x,0,18)
+	b.BackgroundColor3 = Color3.fromRGB(255,255,255); b.BackgroundTransparency = .95
+	b.BorderSizePixel = 0; b.Image = icon; b.ImageColor3 = Color3.fromRGB(220,220,225)
+	b.AutoButtonColor = false; b.ZIndex = 6; b.Parent = Main
+	Instance.new("UICorner", b).CornerRadius = UDim.new(0,11)
+	b.MouseEnter:Connect(function() Tween(b,.14,{BackgroundTransparency=.87}) end)
+	b.MouseLeave:Connect(function() Tween(b,.14,{BackgroundTransparency=.95}) end)
+	return b
+end
+
+local Minimize = TopButton("Minimize", ICONS.MINIMIZE, -82)
+local Close = TopButton("Close", ICONS.CLOSE, -42)
+
+--==================================================
+-- PAGES
+--==================================================
+
+local Content = Instance.new("Frame")
+Content.Size = UDim2.new(1,-44,1,-150); Content.Position = UDim2.fromOffset(22,80)
+Content.BackgroundTransparency = 1; Content.Parent = Main
+
+local Pages = {}
+local function CreatePage(name)
+	local p = Instance.new("Frame")
+	p.Size = UDim2.fromScale(1,1); p.BackgroundTransparency = 1
+	p.Visible = false; p.Parent = Content; Pages[name] = p; return p
+end
+
+local EggPage = CreatePage("EGG_FINDER")
+local FilterPage = CreatePage("FILTER")
+local SettingsPage = CreatePage("SETTINGS")
+local CreditsPage = CreatePage("CREDITS")
+
+-- EGG FINDER PAGE
+local FinderHeader = Instance.new("Frame")
+FinderHeader.Size = UDim2.new(1,0,0,42); FinderHeader.BackgroundTransparency = 1
+FinderHeader.Parent = EggPage
+
+local StatusLabel = Instance.new("TextLabel")
+StatusLabel.Size = UDim2.new(1,-135,1,0); StatusLabel.BackgroundTransparency = 1
+StatusLabel.Text = STRINGS.WAITING; StatusLabel.TextColor3 = Color3.fromRGB(160,160,170)
+StatusLabel.TextSize = 12; StatusLabel.Font = Enum.Font.GothamBold
+StatusLabel.TextXAlignment = Enum.TextXAlignment.Left; StatusLabel.Parent = FinderHeader
+
+local RefreshBtn = Instance.new("TextButton")
+RefreshBtn.Size = UDim2.fromOffset(125,36); RefreshBtn.Position = UDim2.new(1,-125,0,3)
+RefreshBtn.BackgroundColor3 = Color3.fromRGB(255,255,255); RefreshBtn.BackgroundTransparency = .9
+RefreshBtn.Text = "⟳ " .. STRINGS.REFRESH; RefreshBtn.TextColor3 = Color3.fromRGB(245,245,250)
+RefreshBtn.TextSize = 11; RefreshBtn.Font = Enum.Font.GothamBold; RefreshBtn.AutoButtonColor = false
+RefreshBtn.Parent = FinderHeader
+Instance.new("UICorner", RefreshBtn).CornerRadius = UDim.new(0,12)
+
+local ServerScroll = Instance.new("ScrollingFrame")
+ServerScroll.Size = UDim2.new(1,0,1,-50); ServerScroll.Position = UDim2.fromOffset(0,50)
+ServerScroll.BackgroundTransparency = 1; ServerScroll.BorderSizePixel = 0
+ServerScroll.ScrollBarThickness = 4; ServerScroll.ScrollBarImageTransparency = .6
+ServerScroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
+ServerScroll.Parent = EggPage
+Instance.new("UIListLayout", ServerScroll).Padding = UDim.new(0,8)
+
+--==================================================
+-- SERVER CARD
+--==================================================
+
+local CurrentFilterRank = 0
+local ServerCards = {}
+
+local function parseEggs(raw)
+	if type(raw) == "table" then return raw end
+	local ok, data = pcall(HttpService.JSONDecode, HttpService, tostring(raw or "[]"))
+	return ok and data or {}
+end
+
+local function BuildServerCard(index, server)
+	local eggs = parseEggs(server.eggs)
+	local br = server.best_rarity or bestRarity(eggs)
+	local color = RARITY_COLORS[br] or RARITY_COLORS.Common
+
+	local card = Instance.new("Frame")
+	card.Size = UDim2.new(1,-8,0,120)
+	card.BackgroundColor3 = Color3.fromRGB(16,16,20); card.BackgroundTransparency = .15
+	card.BorderSizePixel = 0; card.Parent = ServerScroll
+	Instance.new("UICorner", card).CornerRadius = UDim.new(0,14)
+	local stroke = Instance.new("UIStroke")
+	stroke.Color = color; stroke.Transparency = .55; stroke.Thickness = 1.2; stroke.Parent = card
+
+	local num = Instance.new("TextLabel")
+	num.Size = UDim2.new(1,-130,0,20); num.Position = UDim2.fromOffset(14,10)
+	num.BackgroundTransparency = 1
+	num.Text = string.format("%s #%d • %s", L("SERVER"), index, br)
+	num.TextColor3 = color; num.TextSize = 13; num.Font = Enum.Font.GothamBold
+	num.TextXAlignment = Enum.TextXAlignment.Left; num.Parent = card
+
+	local playersTag = Instance.new("TextLabel")
+	playersTag.Size = UDim2.fromOffset(110,20); playersTag.Position = UDim2.new(1,-124,0,10)
+	playersTag.BackgroundTransparency = 1
+	playersTag.Text = "👤 " .. tostring(server.players or "?") .. "/" .. tostring(server.max_players or "?")
+	playersTag.TextColor3 = Color3.fromRGB(200,200,210); playersTag.TextSize = 11
+	playersTag.Font = Enum.Font.GothamBold; playersTag.TextXAlignment = Enum.TextXAlignment.Right
+	playersTag.Parent = card
+
+	local eggLines = {}
+	for i, e in ipairs(eggs) do
+		if i > 4 then table.insert(eggLines, "+ " .. (#eggs - 4) .. " more...")
+			break end
+		table.insert(eggLines, string.format("• %s | %s | %s", e.name, e.rarity, e.area or "Map"))
+	end
+	if #eggLines == 0 then table.insert(eggLines, "• ...") end
+
+	local info = Instance.new("TextLabel")
+	info.Size = UDim2.new(1,-160,0,66); info.Position = UDim2.fromOffset(14,34)
+	info.BackgroundTransparency = 1
+	info.Text = table.concat(eggLines, "\n")
+	info.TextColor3 = Color3.fromRGB(210,210,218); info.TextSize = 10
+	info.Font = Enum.Font.Gotham; info.TextXAlignment = Enum.TextXAlignment.Left
+	info.TextYAlignment = Enum.TextYAlignment.Top; info.Parent = card
+
+	local joinBtn = Instance.new("TextButton")
+	joinBtn.Size = UDim2.fromOffset(120,38); joinBtn.Position = UDim2.new(1,-134,1,-50)
+	joinBtn.BackgroundColor3 = color; joinBtn.BackgroundTransparency = .78
+	joinBtn.Text = "→ " .. L("JOIN"); joinBtn.TextColor3 = Color3.fromRGB(255,255,255)
+	joinBtn.TextSize = 12; joinBtn.Font = Enum.Font.GothamBold; joinBtn.AutoButtonColor = false
+	joinBtn.Parent = card
+	Instance.new("UICorner", joinBtn).CornerRadius = UDim.new(0,11)
+
+	joinBtn.MouseEnter:Connect(function() Tween(joinBtn,.12,{BackgroundTransparency=.5}) end)
+	joinBtn.MouseLeave:Connect(function() Tween(joinBtn,.12,{BackgroundTransparency=.78}) end)
+
+	joinBtn.Activated:Connect(function()
+		Pop()
+		local jid = tostring(server.jobid or "")
+		local pid = tonumber(server.place_id) or game.PlaceId
+		if jid == "" or jid:find("_local") then
+			joinBtn.Text = "✗ INVALID"
+			task.wait(1.2); joinBtn.Text = "→ " .. L("JOIN")
+			return
+		end
+		joinBtn.Text = L("JOINING")
+		Tween(joinBtn,.2,{BackgroundTransparency=.3})
+		if queue_on_teleport then
+			queue_on_teleport(SCRIPT_SOURCE)
+		end
+		local ok, err = pcall(function()
+			TeleportService:TeleportToPlaceInstance(pid, jid, Player)
+		end)
+		if not ok then
+			joinBtn.Text = "✗ FAILED"
+			task.wait(1.5); joinBtn.Text = "→ " .. L("JOIN")
+		end
+	end)
+
+	task.spawn(function()
+		while card.Parent do
+			local p = (math.sin(os.clock()*2) + 1) / 2
+			stroke.Transparency = .55 - p * .25
+			task.wait(.05)
+		end
+	end)
+
+	table.insert(ServerCards, card)
+end
+
+local function RefreshServers()
+	Pop()
+	StatusLabel.Text = L("WAITING")
+	for _, c in ipairs(ServerCards) do c:Destroy() end
+	table.clear(ServerCards)
+
+	task.spawn(function()
+		local servers = fetchServers()
+		local idx = 0
+		for _, s in ipairs(servers) do
+			if idx >= MAX_SERVERS then break end
+			local br = s.best_rarity or "Common"
+			if CurrentFilterRank == 0 or (RARITY_ORDER[br] or 0) >= CurrentFilterRank then
+				idx = idx + 1
+				BuildServerCard(idx, s)
+			end
+		end
+		StatusLabel.Text = idx > 0 and (L("FOUND") .. ": " .. idx) or L("NO_SERVERS")
+	end)
+end
+
+RefreshBtn.Activated:Connect(RefreshServers)
+
+task.spawn(function()
+	while true do
+		task.wait(UPDATE_INTERVAL)
+		if EggPage.Visible then RefreshServers() end
+	end
+end)
+
+--==================================================
+-- FILTER PAGE
+--==================================================
+
+local FilterTitle = Instance.new("TextLabel")
+FilterTitle.Size = UDim2.new(1,0,0,24); FilterTitle.BackgroundTransparency = 1
+FilterTitle.Text = STRINGS.MIN_RARITY; FilterTitle.TextColor3 = Color3.fromRGB(245,245,250)
+FilterTitle.TextSize = 14; FilterTitle.Font = Enum.Font.GothamBold; FilterTitle.Parent = FilterPage
+
+local FilterGrid = Instance.new("Frame")
+FilterGrid.Size = UDim2.new(1,0,1,-40); FilterGrid.Position = UDim2.fromOffset(0,34)
+FilterGrid.BackgroundTransparency = 1; FilterGrid.Parent = FilterPage
+local Grid = Instance.new("UIGridLayout")
+Grid.CellSize = UDim2.new(0.31,0,0,38); Grid.CellPadding = UDim2.new(0.035,0,0,8)
+Grid.Parent = FilterGrid
+
+local rarities = {"ALL","Common","Uncommon","Rare","Epic","Legendary","Mythic","Cosmic","Secret","Eternal","Divine"}
+for _, r in ipairs(rarities) do
+	local rank = r == "ALL" and 0 or RARITY_ORDER[r]
+	local btn = Instance.new("TextButton")
+	btn.Text = r == "ALL" and STRINGS.ALL or r
+	btn.BackgroundColor3 = Color3.fromRGB(255,255,255); btn.BackgroundTransparency = .93
+	btn.TextColor3 = r == "ALL" and Color3.fromRGB(245,245,250) or RARITY_COLORS[r]
+	btn.TextSize = 11; btn.Font = Enum.Font.GothamBold; btn.AutoButtonColor = false
+	btn.Parent = FilterGrid
+	Instance.new("UICorner", btn).CornerRadius = UDim.new(0,10)
+	local st = Instance.new("UIStroke")
+	st.Color = r == "ALL" and Color3.fromRGB(150,150,160) or RARITY_COLORS[r]
+	st.Transparency = .75; st.Parent = btn
+	btn.Activated:Connect(function()
+		Pop(); CurrentFilterRank = rank
+		for _, b2 in ipairs(FilterGrid:GetChildren()) do
+			if b2:IsA("TextButton") then Tween(b2,.15,{BackgroundTransparency=.93}) end
+		end
+		Tween(btn,.15,{BackgroundTransparency=.8})
+		for _, p in pairs(Pages) do p.Visible = false end
+		EggPage.Visible = true
+		RefreshServers()
+	end)
+end
+
+--==================================================
+-- SETTINGS PAGE (3 Languages: AR / EN / KU + Auto Relay)
+--==================================================
+
+local LangLabel = Instance.new("TextLabel")
+LangLabel.Size = UDim2.new(1,0,0,24); LangLabel.BackgroundTransparency = 1
+LangLabel.Text = STRINGS.LANGUAGE; LangLabel.TextColor3 = Color3.fromRGB(245,245,250)
+LangLabel.TextSize = 14; LangLabel.Font = Enum.Font.GothamBold; LangLabel.Parent = SettingsPage
+
+local LangRow = Instance.new("Frame")
+LangRow.Size = UDim2.new(1,0,0,40); LangRow.Position = UDim2.fromOffset(0,32)
+LangRow.BackgroundTransparency = 1; LangRow.Parent = SettingsPage
+local LangLayout = Instance.new("UIListLayout")
+LangLayout.FillDirection = Enum.FillDirection.Horizontal
+LangLayout.Padding = UDim.new(0,6); LangLayout.Parent = LangRow
+
+local LangButtons = {}
+for _, code in ipairs({"AR","EN","KU"}) do -- ثلاث لغات فقط
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.fromOffset(110,38); b.Text = LANG_NAMES[code]
+	b.BackgroundColor3 = Color3.fromRGB(255,255,255); b.BackgroundTransparency = .93
+	b.TextColor3 = Color3.fromRGB(200,200,210); b.TextSize = 12
+	b.Font = Enum.Font.GothamBold; b.AutoButtonColor = false; b.Parent = LangRow
+	Instance.new("UICorner", b).CornerRadius = UDim.new(0,10)
+	LangButtons[code] = b
+	b.Activated:Connect(function()
+		Pop(); Lang = code
+		for c, bb in pairs(LangButtons) do Tween(bb,.12,{BackgroundTransparency=.93}) end
+		Tween(b,.12,{BackgroundTransparency=.72})
+		StatusLabel.Text = "🌐 ..."
+		TranslateAll()
+		-- انتظار الترجمة الحقيقية ثم تحديث كل النصوص
+		task.delay(1.5, function()
+			StatusLabel.Text = L("WAITING")
+			RefreshBtn.Text = "⟳ " .. L("REFRESH")
+			FilterTitle.Text = L("MIN_RARITY")
+			LangLabel.Text = L("LANGUAGE")
+			RelayToggle.Text = L("AUTO_RELAY") .. ": " .. (AutoRelay and L("ENABLED") or L("DISABLED"))
+			CreditsTitle.Text = L("CREDITS_TITLE")
+			ConfirmTitle.Text = L("CLOSE_MSG"); ConfirmDesc.Text = L("CLOSE_Q")
+			No.Text = L("NO"); Yes.Text = L("YES")
+			if EggPage.Visible then RefreshServers() end
+		end)
+	end)
+end
+
+local RelayToggle = Instance.new("TextButton")
+RelayToggle.Size = UDim2.new(1,0,0,42); RelayToggle.Position = UDim2.fromOffset(0,90)
+RelayToggle.BackgroundColor3 = Color3.fromRGB(255,255,255); RelayToggle.BackgroundTransparency = .92
+RelayToggle.Text = STRINGS.AUTO_RELAY .. ": " .. STRINGS.ENABLED
+RelayToggle.TextColor3 = Color3.fromRGB(120,255,150); RelayToggle.TextSize = 12
+RelayToggle.Font = Enum.Font.GothamBold; RelayToggle.AutoButtonColor = false
+RelayToggle.Parent = SettingsPage
+Instance.new("UICorner", RelayToggle).CornerRadius = UDim.new(0,12)
+
+RelayToggle.Activated:Connect(function()
+	Pop(); AutoRelay = not AutoRelay
+	RelayToggle.Text = L("AUTO_RELAY") .. ": " .. (AutoRelay and L("ENABLED") or L("DISABLED"))
+	RelayToggle.TextColor3 = AutoRelay and Color3.fromRGB(120,255,150) or Color3.fromRGB(255,120,120)
+end)
+
+--==================================================
+-- CREDITS PAGE
+--==================================================
+
+local CreditsTitle = Instance.new("TextLabel")
+CreditsTitle.Size = UDim2.new(1,0,0,26); CreditsTitle.BackgroundTransparency = 1
+CreditsTitle.Text = STRINGS.CREDITS_TITLE; CreditsTitle.TextColor3 = Color3.fromRGB(245,245,250)
+CreditsTitle.TextSize = 15; CreditsTitle.Font = Enum.Font.GothamBold; CreditsTitle.Parent = CreditsPage
+
+local function CreditLink(text, url, y)
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.new(1,-20,0,40); b.Position = UDim2.fromOffset(10,y)
+	b.BackgroundColor3 = Color3.fromRGB(255,255,255); b.BackgroundTransparency = .93
+	b.Text = text; b.TextColor3 = Color3.fromRGB(160,160,255)
+	b.TextSize = 12; b.Font = Enum.Font.GothamBold; b.AutoButtonColor = false
+	b.Parent = CreditsPage
+	Instance.new("UICorner", b).CornerRadius = UDim.new(0,12)
+	b.Activated:Connect(function()
+		Pop()
+		if setclipboard then setclipboard(url) end
+		b.Text = "✓ " .. url
+		task.wait(1.2); b.Text = text
+	end)
+end
+
+CreditLink("💬 Discord Server", "https://discord.gg/kz8XFfP7Zp", 40)
+CreditLink("📢 Telegram — AXC", "https://t.me/axcmy", 90)
+CreditLink("📢 Telegram — MMC", "https://t.me/mmcmy", 140)
+
+local DevCredit = Instance.new("TextLabel")
+DevCredit.Size = UDim2.new(1,0,0,30); DevCredit.Position = UDim2.fromOffset(0,195)
+DevCredit.BackgroundTransparency = 1; DevCredit.Text = "DEV AXL • DIVINE INTERFACE ©"
+DevCredit.TextColor3 = Color3.fromRGB(120,120,130); DevCredit.TextSize = 11
+DevCredit.Font = Enum.Font.GothamMedium; DevCredit.Parent = CreditsPage
+
+--==================================================
+-- TAB BAR
+--==================================================
+
+local TabBar = Instance.new("Frame")
+TabBar.Size = UDim2.fromOffset(540,50); TabBar.Position = UDim2.new(.5,0,1,-28)
+TabBar.AnchorPoint = Vector2.new(.5,.5); TabBar.BackgroundColor3 = Color3.fromRGB(255,255,255)
+TabBar.BackgroundTransparency = .955; TabBar.BorderSizePixel = 0; TabBar.ZIndex = 10; TabBar.Parent = Main
+Instance.new("UICorner", TabBar).CornerRadius = UDim.new(0,16)
+local TabStroke = Instance.new("UIStroke")
+TabStroke.Color = Color3.fromRGB(150,150,160); TabStroke.Transparency = .84; TabStroke.Parent = TabBar
+local TabLayout = Instance.new("UIListLayout")
+TabLayout.FillDirection = Enum.FillDirection.Horizontal
+TabLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+TabLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+TabLayout.Padding = UDim.new(0,5); TabLayout.Parent = TabBar
+
+local function CreateTab(name, icon, page)
+	local button = Instance.new("ImageButton")
+	button.Size = UDim2.fromOffset(126,40); button.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	button.BackgroundTransparency = .97; button.BorderSizePixel = 0
+	button.Image = ""; button.AutoButtonColor = false; button.ZIndex = 11; button.Parent = TabBar
+	Instance.new("UICorner", button).CornerRadius = UDim.new(0,12)
+
+	local iconImage = Instance.new("ImageLabel")
+	iconImage.Size = UDim2.fromOffset(19,19); iconImage.Position = UDim2.new(0,13,.5,-9.5)
+	iconImage.BackgroundTransparency = 1; iconImage.Image = icon
+	iconImage.ImageColor3 = Color3.fromRGB(170,170,180); iconImage.ScaleType = Enum.ScaleType.Fit
+	iconImage.ZIndex = 12; iconImage.Parent = button
+
+	local text = Instance.new("TextLabel")
+	text.Size = UDim2.new(1,-43,1,0); text.Position = UDim2.fromOffset(39,0)
+	text.BackgroundTransparency = 1; text.Text = name
+	text.TextColor3 = Color3.fromRGB(170,170,180); text.TextSize = 9
+	text.Font = Enum.Font.GothamBold; text.TextXAlignment = Enum.TextXAlignment.Left
+	text.ZIndex = 12; text.Parent = button
+
+	button.MouseEnter:Connect(function()
+		Tween(button,.15,{BackgroundTransparency=.91})
+		Tween(iconImage,.15,{ImageColor3=Color3.fromRGB(245,245,250)})
+		Tween(text,.15,{TextColor3=Color3.fromRGB(245,245,250)})
+	end)
+	button.MouseLeave:Connect(function()
+		if page.Visible then return end
+		Tween(button,.15,{BackgroundTransparency=.97})
+		Tween(iconImage,.15,{ImageColor3=Color3.fromRGB(170,170,180)})
+		Tween(text,.15,{TextColor3=Color3.fromRGB(170,170,180)})
+	end)
+	button.Activated:Connect(function()
+		Pop()
+		for _, p in pairs(Pages) do p.Visible = false end
+		page.Visible = true
+		for _, b in ipairs(TabBar:GetChildren()) do
+			if b:IsA("ImageButton") then Tween(b,.15,{BackgroundTransparency=.97}) end
+		end
+		Tween(button,.18,{BackgroundTransparency=.87})
+		Tween(button,.08,{Size=UDim2.fromOffset(120,38)}).Completed:Connect(function()
+			Tween(button,.12,{Size=UDim2.fromOffset(126,40)})
+		end)
+	end)
+	return button
+end
+
+CreateTab(STRINGS.EGG_FINDER, ICONS.EGG, EggPage)
+CreateTab(STRINGS.FILTER, ICONS.FILTER, FilterPage)
+CreateTab(STRINGS.SETTINGS, ICONS.SETTINGS, SettingsPage)
+CreateTab(STRINGS.CREDITS, ICONS.ANGEL, CreditsPage)
+
+EggPage.Visible = true
+
+--==================================================
+-- CLOSE CONFIRMATION
+--==================================================
+
+local ConfirmOverlay = Instance.new("Frame")
+ConfirmOverlay.Size = UDim2.fromScale(1,1); ConfirmOverlay.BackgroundColor3 = Color3.fromRGB(0,0,0)
+ConfirmOverlay.BackgroundTransparency = 1; ConfirmOverlay.Visible = false
+ConfirmOverlay.ZIndex = 100; ConfirmOverlay.Parent = Main
+Instance.new("UICorner", ConfirmOverlay).CornerRadius = UDim.new(0,24)
+
+local ConfirmBox = Instance.new("Frame")
+ConfirmBox.Size = UDim2.fromOffset(300,155); ConfirmBox.Position = UDim2.fromScale(.5,.5)
+ConfirmBox.AnchorPoint = Vector2.new(.5,.5); ConfirmBox.BackgroundColor3 = Color3.fromRGB(20,20,23)
+ConfirmBox.BackgroundTransparency = .04; ConfirmBox.BorderSizePixel = 0; ConfirmBox.ZIndex = 101
+ConfirmBox.Parent = ConfirmOverlay
+Instance.new("UICorner", ConfirmBox).CornerRadius = UDim.new(0,20)
+
+local ConfirmTitle = Instance.new("TextLabel")
+ConfirmTitle.Size = UDim2.new(1,-30,0,35); ConfirmTitle.Position = UDim2.fromOffset(15,18)
+ConfirmTitle.BackgroundTransparency = 1; ConfirmTitle.Text = STRINGS.CLOSE_MSG
+ConfirmTitle.TextColor3 = Color3.fromRGB(245,245,248); ConfirmTitle.TextSize = 15
+ConfirmTitle.Font = Enum.Font.GothamBold; ConfirmTitle.ZIndex = 102; ConfirmTitle.Parent = ConfirmBox
+
+local ConfirmDesc = Instance.new("TextLabel")
+ConfirmDesc.Size = UDim2.new(1,-30,0,25); ConfirmDesc.Position = UDim2.fromOffset(15,52)
+ConfirmDesc.BackgroundTransparency = 1; ConfirmDesc.Text = STRINGS.CLOSE_Q
+ConfirmDesc.TextColor3 = Color3.fromRGB(135,135,145); ConfirmDesc.TextSize = 11
+ConfirmDesc.Font = Enum.Font.Gotham; ConfirmDesc.ZIndex = 102; ConfirmDesc.Parent = ConfirmBox
+
+local function ConfirmButton(text, x)
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.fromOffset(120,38); b.Position = UDim2.new(0,x,1,-48)
+	b.BackgroundColor3 = Color3.fromRGB(255,255,255); b.BackgroundTransparency = .91
+	b.BorderSizePixel = 0; b.Text = text; b.TextColor3 = Color3.fromRGB(245,245,248)
+	b.TextSize = 11; b.Font = Enum.Font.GothamBold; b.AutoButtonColor = false; b.ZIndex = 103
+	b.Parent = ConfirmBox
+	Instance.new("UICorner", b).CornerRadius = UDim.new(0,11)
+	return b
+end
+
+local No = ConfirmButton(STRINGS.NO, 20)
+local Yes = ConfirmButton(STRINGS.YES, 160)
+
+local function ShowConfirm()
+	Pop(); ConfirmOverlay.Visible = true
+	ConfirmOverlay.BackgroundTransparency = 1
+	Tween(ConfirmOverlay,.18,{BackgroundTransparency=.3})
+	Tween(ConfirmBox,.25,{Size=UDim2.fromOffset(300,155)},Enum.EasingStyle.Back)
+end
+
+local function HideConfirm()
+	Pop()
+	Tween(ConfirmOverlay,.16,{BackgroundTransparency=1})
+	Tween(ConfirmBox,.16,{Size=UDim2.fromOffset(270,140)})
+	task.wait(.16); ConfirmOverlay.Visible = false
+end
+
+Close.Activated:Connect(ShowConfirm)
+No.Activated:Connect(HideConfirm)
+Yes.Activated:Connect(function()
+	Pop()
+	Tween(ConfirmOverlay,.18,{BackgroundTransparency=1})
+	Tween(Main,.3,{Size=UDim2.fromOffset(0,0),BackgroundTransparency=1},Enum.EasingStyle.Quint,Enum.EasingDirection.In)
+	task.wait(.3); Gui:Destroy()
+end)
+
+--==================================================
+-- MINI ANGEL + MINIMIZE
+--==================================================
+
+local Mini = Instance.new("ImageButton")
+Mini.Size = UDim2.fromOffset(62,62); Mini.Position = UDim2.fromScale(.5,.5)
+Mini.AnchorPoint = Vector2.new(.5,.5); Mini.BackgroundColor3 = Color3.fromRGB(8,8,10)
+Mini.BackgroundTransparency = .04; Mini.BorderSizePixel = 0; Mini.Image = ICONS.ANGEL
+Mini.ImageColor3 = Color3.fromRGB(245,245,250); Mini.ScaleType = Enum.ScaleType.Fit
+Mini.AutoButtonColor = false; Mini.Visible = false; Mini.ZIndex = 200; Mini.Parent = Gui
+Instance.new("UICorner", Mini).CornerRadius = UDim.new(1,0)
+local MiniStroke = Instance.new("UIStroke")
+MiniStroke.Color = Color3.fromRGB(160,160,170); MiniStroke.Transparency = .4; MiniStroke.Thickness = 1.5; MiniStroke.Parent = Mini
+
+Minimize.Activated:Connect(function()
+	Pop()
+	Tween(Main,.28,{Size=UDim2.fromOffset(0,0),BackgroundTransparency=1})
+	task.wait(.28); Main.Visible = false; Mini.Visible = true
+	Mini.Size = UDim2.fromOffset(0,0)
+	Tween(Mini,.32,{Size=UDim2.fromOffset(62,62)},Enum.EasingStyle.Back)
+end)
+
+Mini.Activated:Connect(function()
+	Pop(); Mini.Visible = false; Main.Visible = true
+	Main.Size = UDim2.fromOffset(0,0); Main.BackgroundTransparency = 1
+	Tween(Main,.35,{Size=UDim2.fromOffset(600,430),BackgroundTransparency=.08},Enum.EasingStyle.Back)
+end)
+
+--==================================================
+-- DRAG
+--==================================================
+
+local function MakeDraggable(object)
+	local dragging, dragStart, startPosition = false, nil, nil
+	object.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true; dragStart = input.Position; startPosition = object.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then dragging = false end
+			end)
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if not dragging then return end
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			local delta = input.Position - dragStart
+			object.Position = UDim2.new(startPosition.X.Scale, startPosition.X.Offset + delta.X,
+				startPosition.Y.Scale, startPosition.Y.Offset + delta.Y)
+		end
+	end)
+end
+
+MakeDraggable(Main)
+MakeDraggable(Mini)
+
+--==================================================
+-- OPEN + INITIAL FETCH
+--==================================================
+
+Main.Size = UDim2.fromOffset(0,0); Main.BackgroundTransparency = 1
+Tween(Main,.45,{Size=UDim2.fromOffset(600,430),BackgroundTransparency=.08},Enum.EasingStyle.Back)
+task.wait(.08); Pop()
+
+TranslateAll()
+task.delay(1.5, function()
+	RefreshServers()
+end)
